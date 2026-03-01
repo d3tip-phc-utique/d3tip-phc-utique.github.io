@@ -28,8 +28,8 @@ permalink: /fr/research/
     <details open>
       <summary>Traitements automatiques du texte et des langues </summary> 
       **[Lien permanent visio](https://visio.numerique.gouv.fr/yrk-tzgf-rew)** 
-      - **Traitements automatiques du corpus et des langues (1)** (25/02/2026) · *Lichao Zhu*  
-      - **Traitements automatiques du corpus et des langues (2)** (04/03/2026) · *Lichao Zhu*  
+      - **Traitements automatiques du corpus et des langues (1)** (25/02/2026) · *Nom*  
+      - **Traitements automatiques du corpus et des langues (2)** (04/03/2026) · *Nom*  
     </details>
   </details>
 
