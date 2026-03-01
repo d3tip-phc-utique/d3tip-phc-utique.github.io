@@ -5,8 +5,6 @@ permalink: /fr/
 ---
 
 
-# Projet D3TIP (PHC Utique 2026)
-
 Bienvenue sur le site du projet lauréat **Discours du Développement Durable : Traitement Informatique Phraséologique (D3TIP)**  
 (**PHC Utique 2026**, code : **26G0606**, **2026-2029**).
 
@@ -35,7 +33,7 @@ Sur le plan applicatif, le projet D3TIP prévoit le développement d’un **outi
 - une **base terminologique multilingue** du développement durable ;
 - un **outil d’exploitation de corpus** dédié au projet.
 
-## Consortium et valorisation
+## Valorisation
 Réunissant **24 participants** issus de **4 universités françaises** et de **6 universités tunisiennes**, le projet s’appuie également sur :
 
 - une thèse en **co-tutelle** ;
