@@ -23,21 +23,29 @@ html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
 html[dir="rtl"] .page-content { text-align: right; }
 
 
-.home-menu {
+.home-menu{
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 18px;
-  margin: 12px 0 22px;
+  gap: 14px 22px;        /* espace entre les items */
+  margin: 14px 0 24px;
 }
 
-.home-menu a {
+/* Chaque lien devient un “chip” plus large */
+.home-menu a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;     /* plus d’espace interne */
+  min-width: 170px;       /* ils s’étendent */
   text-decoration: none;
   font-weight: 600;
-  padding: 6px 10px;
   border: 1px solid #e6e6e6;
   border-radius: 999px;
 }
 
-.home-menu a:hover {
-  text-decoration: underline;
+/* Sur écrans larges, ils s’étalent et se répartissent mieux */
+@media (min-width: 860px){
+  .home-menu a{
+    min-width: 200px;
+  }
 }
