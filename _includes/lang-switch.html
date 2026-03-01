@@ -1,17 +1,23 @@
 {% assign k = page.key | default: '' %}
 
+{% assign fr_path = '/fr' %}
+{% assign en_path = '/en' %}
+{% assign ar_path = '/ar' %}
+
+{% if k != '' %}
+  {% assign fr_path = fr_path | append: '/' | append: k %}
+  {% assign en_path = en_path | append: '/' | append: k %}
+  {% assign ar_path = ar_path | append: '/' | append: k %}
+{% endif %}
+
+{% assign fr_path = fr_path | append: '/' %}
+{% assign en_path = en_path | append: '/' %}
+{% assign ar_path = ar_path | append: '/' %}
+
 <div class="lang-switch">
-  {% if k == '' %}
-    <a href="{{ '/fr/' | relative_url }}">FR</a>
-    <span>·</span>
-    <a href="{{ '/en/' | relative_url }}">EN</a>
-    <span>·</span>
-    <a href="{{ '/ar/' | relative_url }}">AR</a>
-  {% else %}
-    <a href="{{ '/fr/' | append: k | append: '/' | relative_url }}">FR</a>
-    <span>·</span>
-    <a href="{{ '/en/' | append: k | append: '/' | relative_url }}">EN</a>
-    <span>·</span>
-    <a href="{{ '/ar/' | append: k | append: '/' | relative_url }}">AR</a>
-  {% endif %}
+  <a href="{{ fr_path | relative_url }}">FR</a>
+  <span>·</span>
+  <a href="{{ en_path | relative_url }}">EN</a>
+  <span>·</span>
+  <a href="{{ ar_path | relative_url }}">AR</a>
 </div>
