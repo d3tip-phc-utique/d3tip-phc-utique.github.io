@@ -1,0 +1,10 @@
+<footer class="footer">
+  <div class="container">
+    <p class="funding">
+      {% if page.lang == 'fr' %}Projet financé par Campus France.{% endif %}
+      {% if page.lang == 'en' %}Project funded by Campus France.{% endif %}
+      {% if page.lang == 'ar' %}مشروع ممول من Campus France.{% endif %}
+    </p>
+    <p class="small">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </div>
+</footer>
