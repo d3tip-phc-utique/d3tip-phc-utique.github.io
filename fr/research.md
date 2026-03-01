@@ -8,30 +8,29 @@ permalink: /fr/research/
 ---
 
 
-<details>
+<details open>
   <summary><strong>2026</strong></summary>
 
-  <details>
-    <summary>Journées d'études</summary>
+  <details open>
+    <summary>Séminaires</summary>
     
-    - **Intitulé activité** (01/03/2026, ) · Rôle : … · [Lien](URL)
-    - **Intitulé activité** (12/06/2026, Paris) · Rôle : … · [[Lien](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Prédication,%20contrastif,%20culture_06-02-2026_LIEN_D'INSCRIPTION.pdf)]([URL](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Prédication,%20contrastif,%20culture_06-02-2026_LIEN_D'INSCRIPTION.pdf))
-    - **Journée doctorale ADA (06/02/2026, Arras) · ** 
+
+    - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (06/02/2026, Arras) · Prédication, contrastif, culture · [Le programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Prédication,%20contrastif,%20culture_06-02-2026_LIEN_D'INSCRIPTION.pdf)
   </details>
 
-  <details>
-    <summary>Conférences</summary>
+  <details open>
+    <summary>Journées d'études</summary>
 
     - **Titre / évènement** (…/…/2026, …) · Rôle : … · [Lien](URL)
   </details>
 
-  <details>
-    <summary>Terrain / collecte</summary>
-
-    - **Mission / campagne** (…/…/2026, …) · Rôle : … · [Lien](URL)
+  <details open>
+    <summary>Aterliers de formation du projet </summary>
+    <details open> 
+    <summary>(*traitements automatiques du texte et des langues*) [Lien permanent](https://visio.numerique.gouv.fr/yrk-tzgf-rew) </summary>
+    - Séance à venir **Traitements automatiques du corpus et des langues (2)** (04/03/2026) · *Lichao Zhu*  
+    - **Traitements automatiques du corpus et des langues (1)** (25/02/2026) · *Lichao Zhu* 
+    </details>
   </details>
-
-</details>
-
 
 </details>
