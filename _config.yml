@@ -6,7 +6,7 @@ theme: minima
 
 header_pages:
   - fr/project.md
-  - fr/publications.md
-  - fr/research.md
   - fr/team.md
+  - fr/research.md
+  - fr/publications.md
   - fr/contact.md
