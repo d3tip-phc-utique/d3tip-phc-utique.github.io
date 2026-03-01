@@ -28,7 +28,6 @@ html[dir="rtl"] .page-content { text-align: right; }
 
 @import "minima";
 
-/* ===== Menu home (sous le titre de la page d’accueil) ===== */
 
 .home-menu{
   margin: 14px 0 22px;
