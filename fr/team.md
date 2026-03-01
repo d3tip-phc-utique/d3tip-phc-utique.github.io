@@ -7,27 +7,74 @@ key: team
 permalink: /fr/team/
 ---
 
-Rania ALOUI – ESSECT, Université de Tunis – Tunisie  
-Thouraya BEN AMOR – Université de la Manouba – Tunisie  
-Anissa BEN HASSINE – ESSECT, Université de Tunis – Tunisie  
-Valentina BISCONTI – Université de Picardie Jules Verne – France  
-Monia BOUALI – Université de Gafsa – Tunisie  
-Intissar BOUGHALMI – Université de la Manouba – Tunisie  
-Brice BRICAUD – Université Paris Cité – France  
-Pierre-André BUVET – Université Sorbonne Paris Nord – France  
-Jan GOES – Université d’Artois – France  
-Haythem HAMDI – Université de Sousse & Université autonome de Barcelone – Tunisie  
-Ali JAOUEDI – Université de Sousse – Tunisie  
-Safa KRIFI – Université de Gafsa – Tunisie  
-Dhouha LAJMI – Université de Sfax – Tunisie  
-Luis MENESES-LERIN – Université d’Artois – France  
-Soumaya MEJRI – ESSECT, Université de Tunis – Tunisie  
-Imen MIZOURI – Université Paris Cité – France  
-Béchir OUERHANI – Université de Sousse – Tunisie  
-Lassaad OUESLATI – Université de Tunis – Tunisie  
-Stéphane PATIN – Université Paris Cité – France  
-Mojca PECMAN – Université Paris Cité – France  
-Dorra TALBI – ESSECT, Université de Tunis – Tunisie  
-Nour El Houda YEFERNI – ESSECT, Université de Tunis – Tunisie  
-Lichao ZHU – Université Paris Cité – France  
-Anissa ZRIGUE – Université de Kairouan – Tunisie  
+- **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Thouraya BEN AMOR](URL_PERSO)** — Université de la Manouba (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Valentina BISCONTI](URL_PERSO)** — Université de Picardie Jules Verne (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Intissar BOUGHALMI](URL_PERSO)** — Université de la Manouba (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Jan GOES](URL_PERSO)** — Université d’Artois (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Luis MENESES-LERIN](URL_PERSO)** — Université d’Artois (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
+  *Statut :* … · *Rôle :* …
+
+- **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Statut :* … · *Rôle :* …
+
+- **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  
+  *MCF* · *Rôle :* Porteur
+
+- **[Anissa ZRIGUE](URL_PERSO)** — Université de Kairouan (Tunisie)  
+  *Statut :* … · *Rôle :* …
