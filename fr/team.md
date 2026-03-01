@@ -8,7 +8,7 @@ permalink: /fr/team/
 ---
 
 - **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorante* · *Rôle :* doctorant en co-direction
+  *Doctorant* · *Rôle :* doctorant en co-direction
 
 - **[Thouraya BEN AMOR](URL_PERSO)** — Université de la Manouba (Tunisie)  
   *MCF HDR* · *Rôle :* directrice de thèse en co-tutelle
@@ -17,16 +17,16 @@ permalink: /fr/team/
   *PR* · *Rôle :* directrice de thèse en co-direction
 
 - **[Valentina BISCONTI](URL_PERSO)** — Université de Picardie Jules Verne (France)  
-  *PR* … · *Rôle :* …
+  *PR* · *Rôle :* …
 
 - **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *MCF* … · *Rôle :* …
+  *MCF* · *Rôle :* …
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Doctorante* · *Rôle :* doctorant en co-tutelle
+  *Doctorant* · *Rôle :* doctorant en co-tutelle
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
-  *IGE* … · *Rôle :* développeur
+  *IGE* · *Rôle :* développeur
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
   *PR* · *Rôle :* …
@@ -35,13 +35,13 @@ permalink: /fr/team/
   *PR* · *Rôle :* …
 
 - **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Espagne, Tunisie)  
-  *Doctorant* … · *Rôle :* …
+  *Doctorant* · *Rôle :* …
 
 - **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
   *Docteur* · *Rôle :* Post-doctorant
 
 - **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *Doctorante* … · *Rôle :* …
+  *Doctorant* … · *Rôle :* …
 
 - **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
   *MCF* · *Rôle :* …
@@ -59,22 +59,22 @@ permalink: /fr/team/
   *MCF* … · *Rôle :* …
 
 - **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
-  *MCF* … · *Rôle :* …
+  *MCF* · *Rôle :* …
 
 - **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
   *PR* · *Rôle :* directeur de thèse en co-tutelle et en co-direction
 
 - **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
-  *PR* … · *Rôle :* …
+  *PR* · *Rôle :* …
 
 - **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF* … · *Rôle :* …
+  *MCF* · *Rôle :* …
 
 - **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorante* … · *Rôle :* …
+  *Doctorant* · *Rôle :* …
 
 - **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  
   *MCF* · *Rôle :* Porteur du projet
 
 - **[Anissa ZRIGUE](URL_PERSO)** — Université de Kairouan (Tunisie)  
-  *MCF HDR* … · *Rôle :* …
+  *MCF HDR* · *Rôle :* …
