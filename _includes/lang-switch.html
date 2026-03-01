@@ -1,8 +1,17 @@
 {% assign k = page.key | default: '' %}
+
 <div class="lang-switch">
-  <a href="{{ '/fr/' | append: k | append: '/' | relative_url }}">FR</a>
-  <span>·</span>
-  <a href="{{ '/en/' | append: k | append: '/' | relative_url }}">EN</a>
-  <span>·</span>
-  <a href="{{ '/ar/' | append: k | append: '/' | relative_url }}">AR</a>
+  {% if k == '' %}
+    <a href="{{ '/fr/' | relative_url }}">FR</a>
+    <span>·</span>
+    <a href="{{ '/en/' | relative_url }}">EN</a>
+    <span>·</span>
+    <a href="{{ '/ar/' | relative_url }}">AR</a>
+  {% else %}
+    <a href="{{ '/fr/' | append: k | append: '/' | relative_url }}">FR</a>
+    <span>·</span>
+    <a href="{{ '/en/' | append: k | append: '/' | relative_url }}">EN</a>
+    <span>·</span>
+    <a href="{{ '/ar/' | append: k | append: '/' | relative_url }}">AR</a>
+  {% endif %}
 </div>
