@@ -41,7 +41,7 @@ permalink: /fr/team/
   *Docteur* · *Rôle :* Post-doctorant
 
 - **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *Doctorant* … · *Rôle :* …
+  *Doctorant* · *Rôle :* …
 
 - **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
   *MCF* · *Rôle :* …
@@ -50,13 +50,13 @@ permalink: /fr/team/
   *MCF* · *Rôle :* 
 
 - **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF* … · *Rôle :* Co-porteur du projet
+  *MCF* · *Rôle :* Co-porteur du projet
 
 - **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
   *Docteur* · *Rôle :* Post-doctorant
 
 - **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
-  *MCF* … · *Rôle :* …
+  *MCF* · *Rôle :* …
 
 - **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
   *MCF* · *Rôle :* …
