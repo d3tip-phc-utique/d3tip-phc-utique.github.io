@@ -7,6 +7,7 @@ key: contact
 permalink: /fr/contact/
 ---
 
-Email: `prenom.nom@univ.fr`
+Email: 
+- partie française : `lichao.zhu@u-paris.fr`
+- partie tunisienne : `soumayamejri@yahoo.fr`
 
-GitHub: `https://github.com/tonpseudo`
