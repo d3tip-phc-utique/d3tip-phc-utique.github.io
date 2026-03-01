@@ -1,0 +1,23 @@
+:root { --max: 980px; --pad: 18px; }
+body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+
+.topbar { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; }
+.navwrap { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
+.brand { font-weight: 700; text-decoration: none; color: #111; }
+
+.lang-switch a { text-decoration: none; color: #222; font-weight: 600; }
+.lang-switch span { color: #888; margin: 0 8px; }
+
+main { padding: 26px 0 50px; }
+.page-header .subtitle { color: #555; margin-top: 6px; }
+.page-content a { color: inherit; }
+
+.footer { border-top: 1px solid #eee; padding: 18px 0; margin-top: 36px; }
+.funding { font-weight: 700; }
+.small { color: #666; font-size: 0.95rem; }
+
+/* RTL polish */
+html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", serif; }
+html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
+html[dir="rtl"] .page-content { text-align: right; }
