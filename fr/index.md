@@ -1,12 +1,19 @@
 ---
 layout: page
 title: "Accueil"
-subtitle: "Objectifs · Méthodes · Résultats · Publications"
 lang: fr
 dir: ltr
 key: ""
 permalink: /fr/
 ---
+
+<nav class="home-menu" aria-label="Menu principal">
+  <a href="/fr/project/">Le projet</a>
+  <a href="/fr/publications/">Publications</a>
+  <a href="/fr/research/">Activités de recherche</a>
+  <a href="/fr/team/">Équipe</a>
+  <a href="/fr/contact/">Contact</a>
+</nav>
 
 Bienvenue sur le site du projet.
 
