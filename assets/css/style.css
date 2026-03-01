@@ -24,47 +24,44 @@ html[dir="rtl"] .page-content { text-align: right; }
 
 
 ---
----
 
-@import "minima";
-
-/* Header: langues en haut, menu dessous */
-.site-header .top-row{
+/* Menu sous les langues */
+.main-menu{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
+  flex-wrap: wrap;
+  gap: 10px 16px;
   padding-bottom: 10px;
 }
 
-.site-header .menu-row{
-  border-top: 1px solid #eee;
-  padding-top: 10px;
+.menu-link{
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
 }
 
-/* Menu horizontal, respire */
-.site-header .menu-row .page-link{
-  display: inline-block;
-  margin-right: 16px;
-  padding: 8px 0;
-  white-space: nowrap;
-}
-
-/* Langues */
-.lang-switch{
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-.lang-switch a{ text-decoration: none; font-weight: 700; }
-
-/* Mobile: menu passe en lignes (lisible) */
-@media (max-width: 720px){
-  .site-header .top-row{
-    flex-wrap: wrap;
+/* Grand écran: plus aéré */
+@media (min-width: 900px){
+  .main-menu{
+    justify-content: space-between;
   }
-  .site-header .menu-row .page-link{
-    margin-right: 12px;
-    padding: 10px 0;
+  .menu-link{
+    padding: 10px 16px;
   }
+}
+
+/* Mobile: lisible, pas serré */
+@media (max-width: 640px){
+  .main-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu-link{
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px){
+  .main-menu{ grid-template-columns: 1fr; }
 }
