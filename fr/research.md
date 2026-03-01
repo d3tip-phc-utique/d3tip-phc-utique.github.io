@@ -7,6 +7,6 @@ key: contact
 permalink: /fr/research/
 ---
 
-Email: `prenom.nom@univ.fr`
 
-GitHub: `https://github.com/tonpseudo`
+- Activité 1 (année) – lien
+- Activité 2 (année) – lien
