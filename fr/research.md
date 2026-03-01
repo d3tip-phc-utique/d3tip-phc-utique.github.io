@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Activités de recherche"
+title: "Activités"
 lang: fr
 dir: ltr
 key: contact
