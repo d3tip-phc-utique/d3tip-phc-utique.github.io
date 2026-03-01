@@ -28,46 +28,43 @@ html[dir="rtl"] .page-content { text-align: right; }
 
 @import "minima";
 
-
-.home-menu{
-  margin: 14px 0 22px;
-}
-
-.home-menu a{
-  text-decoration: none;
-  font-weight: 600;
-  border: 1px solid #e6e6e6;
-  padding: 10px 14px;
-  border-radius: 14px;
+/* Header: langues en haut, menu dessous */
+.site-header .top-row{
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  white-space: normal;
-  line-height: 1.2;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 10px;
 }
 
-/* Mobile: 2 colonnes */
-@media (max-width: 640px){
-  .home-menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+.site-header .menu-row{
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+/* Menu horizontal, respire */
+.site-header .menu-row .page-link{
+  display: inline-block;
+  margin-right: 16px;
+  padding: 8px 0;
+  white-space: nowrap;
+}
+
+/* Langues */
+.lang-switch{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.lang-switch a{ text-decoration: none; font-weight: 700; }
+
+/* Mobile: menu passe en lignes (lisible) */
+@media (max-width: 720px){
+  .site-header .top-row{
+    flex-wrap: wrap;
   }
-}
-
-/* Très petit mobile: 1 colonne */
-@media (max-width: 360px){
-  .home-menu{
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Grand écran: 5 colonnes */
-@media (min-width: 900px){
-  .home-menu{
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 12px;
+  .site-header .menu-row .page-link{
+    margin-right: 12px;
+    padding: 10px 0;
   }
 }
