@@ -21,3 +21,23 @@ main { padding: 26px 0 50px; }
 html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", serif; }
 html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
 html[dir="rtl"] .page-content { text-align: right; }
+
+
+.home-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin: 12px 0 22px;
+}
+
+.home-menu a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 999px;
+}
+
+.home-menu a:hover {
+  text-decoration: underline;
+}
