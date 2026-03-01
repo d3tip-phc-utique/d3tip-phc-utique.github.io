@@ -1,6 +1,16 @@
 <header class="topbar">
   <div class="container navwrap">
-    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="brand" href="{{ '/fr/' | relative_url }}">{{ site.title }}</a>
     {% include lang-switch.html %}
   </div>
+
+  <nav class="main-menu container" aria-label="Menu principal">
+    {%- assign page_paths = site.header_pages -%}
+    {%- for path in page_paths -%}
+      {%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title -%}
+        <a class="menu-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
 </header>
