@@ -26,39 +26,92 @@ html[dir="rtl"] .page-content { text-align: right; }
 ---
 
 /* Menu sous les langues */
+/* ===== Header + langues + menu (sobre) ===== */
+
+.topbar{
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.navwrap{
+  padding: 14px 0 10px;
+}
+
+.brand{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.lang-switch{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch a{
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  border-radius: 999px;
+}
+
+.lang-switch a:hover{
+  text-decoration: underline;
+}
+
+/* Menu sous les langues */
 .main-menu{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 16px;
-  padding-bottom: 10px;
+  justify-content: center;     /* desktop: menu pas collé, pas étiré */
+  gap: 10px 14px;
+  padding: 10px 0 14px;
 }
 
 .menu-link{
   text-decoration: none;
   font-weight: 600;
-  padding: 8px 12px;
+  padding: 9px 14px;
   border: 1px solid #e6e6e6;
-  border-radius: 14px;
+  border-radius: 999px;
+  background: #fafafa;         /* léger, très sobre */
 }
 
-/* Grand écran: plus aéré */
+.menu-link:hover{
+  background: #f5f5f5;
+  text-decoration: none;
+}
+
+/* Indique la page active (si Jekyll met la classe current sur certains thèmes: sinon c’est neutre) */
+.menu-link.current, .menu-link[aria-current="page"]{
+  background: #fff;
+  border-color: #d8d8d8;
+}
+
+/* Desktop: un peu plus d’air */
 @media (min-width: 900px){
   .main-menu{
-    justify-content: space-between;
+    gap: 12px 16px;
   }
   .menu-link{
     padding: 10px 16px;
   }
 }
 
-/* Mobile: lisible, pas serré */
+/* Mobile: tu dis que ça va, on garde proche, mais un peu plus net */
 @media (max-width: 640px){
   .main-menu{
+    justify-content: start;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 12px;
   }
   .menu-link{
     text-align: center;
+    border-radius: 14px;
+    padding: 12px 10px;
   }
 }
 
