@@ -11,7 +11,7 @@ permalink: /fr/events/
 
 ### Prochaines événements
 #### Formation
-  - **Traitements automatiques du texte et des langues** - (04/03/2026) - [lien Visio](https://visio.numerique.gouv.fr/yrk-tzgf-rew)
+  - **Traitements automatiques du texte et des langues** - (11h, 04/03/2026)
 #### Journées d’études
   - **Dictionnaire et discours du développement durable** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité · [Lien](URL)
 #### Colloques 
