@@ -6,76 +6,78 @@ dir: ltr
 key: team
 permalink: /fr/team/
 ---
-
-** Équipe française **  
-- **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorant* · *Rôle :* doctorant en co-direction
-
-- **[Thouraya BEN AMOR](URL_PERSO)** — Université de la Manouba (Tunisie)  
-  *MCF HDR* · *Rôle :* directrice de thèse en co-tutelle
-
-- **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *PR* · *Rôle :* directrice de thèse en co-direction
-
+**Équipe française**  
 - **[Valentina BISCONTI](URL_PERSO)** — Université de Picardie Jules Verne (France)  
-  *PR* · *Rôle :* …
-
-- **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *MCF* · *Rôle :* …
-
+  *PR* · *Compétences :* …
+  
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Doctorant* · *Rôle :* doctorant en co-tutelle
+  *Doctorant en co-tutelle* · *Compétences :* 
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
-  *IGE* · *Rôle :* développeur
+  *IGE* · *Compétences :* développeur
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
-  *PR* · *Rôle :* …
+  *PR* · *Compétences :* …
 
 - **[Jan GOES](URL_PERSO)** — Université d’Artois (France)  
-  *PR* · *Rôle :* …
-
-- **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Espagne, Tunisie)  
-  *Doctorant* · *Rôle :* …
-
-- **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
-  *Docteur* · *Rôle :* Post-doctorant
-
-- **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *Doctorant* · *Rôle :* …
-
-- **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
-  *MCF* · *Rôle :* …
+  *PR* · *Compétences :* …
 
 - **[Luis MENESES-LERIN](URL_PERSO)** — Université d’Artois (France)  
-  *MCF* · *Rôle :* 
-
-- **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF* · *Rôle :* Co-porteur du projet
+  *MCF* · *Compétences :* 
 
 - **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
-  *Docteur* · *Rôle :* Post-doctorant
-
-- **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
-  *MCF* · *Rôle :* …
-
-- **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
-  *MCF* · *Rôle :* …
+  *Docteur* · *Compétences :* Post-doctorant
 
 - **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
-  *PR* · *Rôle :* directeur de thèse en co-tutelle et en co-direction
+  *PR* · *Compétences :* directeur de thèse en co-tutelle et en co-direction
 
 - **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
-  *PR* · *Rôle :* …
-
-- **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF* · *Rôle :* …
-
-- **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorant* · *Rôle :* …
+  *PR* · *Compétences :* …
 
 - **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  
-  *MCF* · *Rôle :* Porteur du projet
+  *MCF, cocordinateur* · *Compétences :*
+
+
+**Équipe tunisienne**  
+- **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Doctorant en co-direction* · *Compétences :* 
+
+- **[Thouraya BEN AMOR](URL_PERSO)** — Université de la Manouba (Tunisie)  
+  *MCF HDR* · *Compétences :* directrice de thèse en co-tutelle
+
+- **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *PR* · *Compétences :* directrice de thèse en co-direction
+
+- **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
+  *MCF* · *Compétences :* …
+
+- **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
+  *Doctorant en co-tutelle* · *Compétences :*
+
+- **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
+  *Docteur* · *Compétences :* Post-doctorant
+
+- **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
+  *Doctorant* · *Compétences :* …
+
+- **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
+  *MCF* · *Compétences :* …
+
+- **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *MCF, cocordinatrice* · *Compétences :* Co-porteur du projet
+
+- **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
+  *MCF* · *Compétences :* …
+
+- **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
+  *MCF* · *Compétences :* …
+
+- **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *MCF* · *Compétences :* …
+
+- **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
+  *Doctorant* · *Compétences :* …
 
 - **[Anissa ZRIGUE](URL_PERSO)** — Université de Kairouan (Tunisie)  
-  *MCF HDR* · *Rôle :* …
+  *MCF HDR* · *Compétences :* …
+ 
