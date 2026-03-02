@@ -205,5 +205,5 @@ html[dir="rtl"] .page-content { text-align: right; }
 /* Couleur du TEXTE uniquement pour les boutons du menu */
 .main-menu .menu-link,
 .main-menu .menu-link:visited{
-  color: #2E7D32;
+  color: #1F8A8F;
 }
