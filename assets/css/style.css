@@ -236,7 +236,6 @@ html[dir="rtl"] .page-content { text-align: right; }
   margin: 0 auto;
 }
 
-/* ⭐ Logos parfaitement alignés */
 .footer-partners__logos img {
   height: 58px;        /* ← hauteur uniforme */
   width: auto;         /* proportions conservées */
