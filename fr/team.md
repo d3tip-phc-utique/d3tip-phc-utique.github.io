@@ -35,7 +35,7 @@ permalink: /fr/team/
   *PR* · *Compétences :* …
 
 - **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  
-  *MCF, cocordinateur* · *Compétences :*
+  *MCF, coordinateur* · *Compétences :*
 
 
 **Équipe tunisienne**  
@@ -64,7 +64,7 @@ permalink: /fr/team/
   *MCF* · *Compétences :* …
 
 - **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF, cocordinatrice* · *Compétences :* Co-porteur du projet
+  *MCF, coordinatrice* · *Compétences :* Co-porteur du projet
 
 - **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
   *MCF* · *Compétences :* …
