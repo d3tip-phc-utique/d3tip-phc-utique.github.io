@@ -14,7 +14,7 @@ permalink: /fr/team/
   *Doctorant en co-tutelle* · *Compétences :* 
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
-  *IGE* · *Compétences :* développeur
+  *IGE* · *Compétences :* 
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
   *PR* · *Compétences :* …
@@ -26,10 +26,10 @@ permalink: /fr/team/
   *MCF* · *Compétences :* 
 
 - **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
-  *Docteur* · *Compétences :* Post-doctorant
+  *Post-doctorant* · *Compétences :* 
 
 - **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
-  *PR* · *Compétences :* directeur de thèse en co-tutelle et en co-direction
+  *PR* · *Compétences :* 
 
 - **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
   *PR* · *Compétences :* …
@@ -46,7 +46,7 @@ permalink: /fr/team/
   *MCF HDR* · *Compétences :* directrice de thèse en co-tutelle
 
 - **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *PR* · *Compétences :* directrice de thèse en co-direction
+  *PR* · *Compétences :* 
 
 - **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
   *MCF* · *Compétences :* …
@@ -55,7 +55,7 @@ permalink: /fr/team/
   *Doctorant en co-tutelle* · *Compétences :*
 
 - **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
-  *Docteur* · *Compétences :* Post-doctorant
+  *Post-doctorant* · *Compétences :* 
 
 - **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
   *Doctorant* · *Compétences :* …
@@ -64,7 +64,7 @@ permalink: /fr/team/
   *MCF* · *Compétences :* …
 
 - **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF, coordinatrice* · *Compétences :* Co-porteur du projet
+  *MCF, coordinatrice* · *Compétences :* 
 
 - **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
   *MCF* · *Compétences :* …
