@@ -123,3 +123,53 @@ main { padding: 26px 0 50px; }
 html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", serif; }
 html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
 html[dir="rtl"] .page-content { text-align: right; }
+
+
+/* ===== Effet sombre (overlay) sans changer la couleur du bouton ===== */
+
+.menu-link,
+.lang-switch a{
+  position: relative;
+  overflow: hidden;                 /* pour que l’overlay respecte l’arrondi */
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 120ms cubic-bezier(.2,.8,.2,1), box-shadow 160ms ease;
+  will-change: transform;
+}
+
+/* overlay sombre */
+.menu-link::before,
+.lang-switch a::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: rgba(0,0,0,0);        /* neutre par défaut */
+  transition: background 140ms ease;
+}
+
+/* Hover: très léger assombrissement */
+.menu-link:hover::before,
+.lang-switch a:hover::before{
+  background: rgba(0,0,0,.06);
+}
+
+/* Active (clic/tap): assombrissement plus marqué + press */
+.menu-link:active,
+.lang-switch a:active{
+  transform: translateY(1px) scale(.985);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.menu-link:active::before,
+.lang-switch a:active::before{
+  background: rgba(0,0,0,.14);
+}
+
+/* Focus clavier: anneau discret (optionnel) */
+.menu-link:focus-visible,
+.lang-switch a:focus-visible{
+  outline: 3px solid rgba(0,0,0,.18);
+  outline-offset: 3px;
+  border-radius: 999px;
+}
