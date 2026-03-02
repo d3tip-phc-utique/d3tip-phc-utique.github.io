@@ -173,3 +173,13 @@ html[dir="rtl"] .page-content { text-align: right; }
   outline-offset: 3px;
   border-radius: 999px;
 }
+
+.menu-link,
+.lang-switch a{
+  color: #43DDF0;
+}
+
+.menu-link:visited,
+.lang-switch a:visited{
+  color: #43DDF0;
+}
