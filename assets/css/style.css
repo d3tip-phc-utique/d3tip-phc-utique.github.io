@@ -174,12 +174,9 @@ html[dir="rtl"] .page-content { text-align: right; }
   border-radius: 999px;
 }
 
-.menu-link,
-.lang-switch a{
-  color: #43DDF0;
+.menu .menu-link{
+  color: ##4770AD;
 }
-
-.menu-link:visited,
-.lang-switch a:visited{
-  color: #43DDF0;
+.menu .menu-link:visited{
+  color: ##4770AD;
 }
