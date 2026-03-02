@@ -1,10 +1,136 @@
-/* ===== Effet sombre (overlay) ===== */
-/* IMPORTANT : on ne touche pas aux couleurs de base ici */
+corrige à partir de ça : :root { --max: 980px; --pad: 18px; }
+
+body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+
+main { padding: 26px 0 50px; }
+.page-header .subtitle { color: #555; margin-top: 6px; }
+.page-content a { color: inherit; }
+
+.footer { border-top: 1px solid #eee; padding: 18px 0; margin-top: 36px; }
+.funding { font-weight: 700; }
+.small { color: #666; font-size: 0.95rem; }
+
+/* ===== Header + langues + menu (sobre) ===== */
+
+.topbar{
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+
+  /* Empêche la ligne de “chevaucher” les boutons */
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+.navwrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0 10px;
+}
+
+.brand{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: #111;
+}
+
+.lang-switch{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #222;
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  border-radius: 999px;
+}
+
+.lang-switch a:hover{ text-decoration: underline; }
+
+/* Menu sous les langues */
+.main-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 14px;
+
+  /* On ajoute de l’air au-dessus du menu */
+  margin-top: 6px;
+  padding: 6px 0 14px;
+
+  /* Au cas où une ancienne règle mettrait une ligne ici */
+  border-top: 0 !important;
+}
+
+.menu-link{
+  text-decoration: none;
+  font-weight: 600;
+  padding: 9px 14px;
+  border: 1px solid #e6e6e6;
+  border-radius: 999px;
+  background: #fafafa;
+
+  /* Les boutons passent visuellement au-dessus de tout séparateur */
+  position: relative;
+  z-index: 1;
+}
+
+.menu-link:hover{
+  background: #f5f5f5;
+  text-decoration: none;
+}
+
+.menu-link.current, .menu-link[aria-current="page"]{
+  background: #fff;
+  border-color: #d8d8d8;
+}
+
+/* Desktop: un peu plus d’air */
+@media (min-width: 900px){
+  .main-menu{ gap: 12px 16px; }
+  .menu-link{ padding: 10px 16px; }
+}
+
+/* Mobile */
+@media (max-width: 640px){
+  .main-menu{
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 12px;
+  }
+  .menu-link{
+    text-align: center;
+    border-radius: 14px;
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 360px){
+  .main-menu{ grid-template-columns: 1fr; }
+}
+
+/* ===== RTL polish ===== */
+html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", serif; }
+html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
+html[dir="rtl"] .page-content { text-align: right; }
+
+
+/* ===== Effet sombre (overlay) sans changer la couleur du bouton ===== */
 
 .menu-link,
 .lang-switch a{
   position: relative;
-  overflow: hidden; /* pour que l’overlay respecte l’arrondi */
+  overflow: hidden;                 /* pour que l’overlay respecte l’arrondi */
   -webkit-tap-highlight-color: transparent;
   transition: transform 120ms cubic-bezier(.2,.8,.2,1), box-shadow 160ms ease;
   will-change: transform;
@@ -18,19 +144,17 @@
   inset: 0;
   border-radius: inherit;
   pointer-events: none;
-  opacity: 0;                 /* pas d'effet avant/après */
-  background: rgba(0,0,0,.14);
-  transition: opacity 140ms ease;
+  background: rgba(0,0,0,0);        /* neutre par défaut */
+  transition: background 140ms ease;
 }
 
-/* Hover: léger assombrissement (si tu n'en veux pas, supprime ce bloc) */
+/* Hover: très léger assombrissement */
 .menu-link:hover::before,
 .lang-switch a:hover::before{
-  opacity: 1;
   background: rgba(0,0,0,.06);
 }
 
-/* Active (clic/tap): plus sombre + press */
+/* Active (clic/tap): assombrissement plus marqué + press */
 .menu-link:active,
 .lang-switch a:active{
   transform: translateY(1px) scale(.985);
@@ -39,11 +163,10 @@
 
 .menu-link:active::before,
 .lang-switch a:active::before{
-  opacity: 1;
   background: rgba(0,0,0,.14);
 }
 
-/* Focus clavier */
+/* Focus clavier: anneau discret (optionnel) */
 .menu-link:focus-visible,
 .lang-switch a:focus-visible{
   outline: 3px solid rgba(0,0,0,.18);
@@ -51,9 +174,9 @@
   border-radius: 999px;
 }
 
-/* ===== Couleur du TEXTE uniquement pour les boutons du menu ===== */
-/* (ne touche pas .lang-switch a) */
-.main-menu .menu-link,
-.main-menu .menu-link:visited{
-  color: #43DDF0;
+.menu .menu-link{
+  color: ##4770AD;
+}
+.menu .menu-link:visited{
+  color: ##4770AD;
 }
