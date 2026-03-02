@@ -7,6 +7,7 @@ key: team
 permalink: /fr/team/
 ---
 
+** Équipe française **  
 - **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
   *Doctorant* · *Rôle :* doctorant en co-direction
 
