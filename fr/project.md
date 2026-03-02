@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Le projet"
+title: "Projet"
 lang: fr
 dir: ltr
 key: project
