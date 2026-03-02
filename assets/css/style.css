@@ -174,9 +174,7 @@ html[dir="rtl"] .page-content { text-align: right; }
   border-radius: 999px;
 }
 
-.menu .menu-link{
-  color: ##4770AD;
-}
-.menu .menu-link:visited{
-  color: ##4770AD;
+.main-menu .menu-link,
+.main-menu .menu-link:visited{
+  color: #4770AD;
 }
