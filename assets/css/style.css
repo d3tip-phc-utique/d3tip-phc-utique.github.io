@@ -207,3 +207,65 @@ html[dir="rtl"] .page-content { text-align: right; }
 .main-menu .menu-link:visited{
   color: #1F8A8F;
 }
+
+/* ===== Footer — partenaires ===== */
+
+.footer-partners {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+
+.footer-partners__title {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #374151;
+  letter-spacing: .3px;
+}
+
+/* Grille responsive élégante */
+.footer-partners__logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px 22px;
+  align-items: center;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ⭐ Logos parfaitement alignés */
+.footer-partners__logos img {
+  height: 58px;        /* ← hauteur uniforme */
+  width: auto;         /* proportions conservées */
+  max-width: 170px;    /* évite les logos trop longs */
+  object-fit: contain;
+  display: block;
+
+  /* Style institutionnel discret */
+  filter: grayscale(100%);
+  opacity: 0.9;
+  transition: transform .2s ease, filter .2s ease, opacity .2s ease;
+}
+
+/* Effet élégant au survol */
+.footer-partners__logos img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .footer-partners__logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 16px;
+  }
+
+  .footer-partners__logos img {
+    height: 52px;
+    max-width: 150px;
+  }
+}
