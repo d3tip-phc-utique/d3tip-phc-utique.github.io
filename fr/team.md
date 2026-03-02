@@ -54,9 +54,9 @@ permalink: /fr/team/
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
   *Doctorant en co-tutelle* · *Compétences :*
 
-- **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Tunisie, Espagne)
+- **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Tunisie, Espagne)    
   *Doctorant* · *Compétences :*
-  
+
 - **[Ali JAOUEDI](URL_PERSO)** — Université de Sousse (Tunisie)  
   *Post-doctorant* · *Compétences :* 
 
