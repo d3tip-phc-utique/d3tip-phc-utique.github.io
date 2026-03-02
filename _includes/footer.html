@@ -1,10 +1,13 @@
 <footer class="footer">
   <div class="container">
-    <p class="funding">
-      {% if page.lang == 'fr' %}Projet financé par Campus France.{% endif %}
-      {% if page.lang == 'en' %}Project funded by Campus France.{% endif %}
-      {% if page.lang == 'ar' %}مشروع ممول من Campus France.{% endif %}
-    </p>
-    <p class="small">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p class="footer-actions">
+  <a class="footer-contact" href="{{ '/fr/contact/' | relative_url }}">
+    {% if page.lang == 'fr' %}Contact{% endif %}
+    {% if page.lang == 'en' %}Contact{% endif %}
+    {% if page.lang == 'ar' %}اتصل بنا{% endif %}
+  </a>
+</p>
+
+<p class="small">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
   </div>
 </footer>
