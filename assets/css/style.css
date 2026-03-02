@@ -38,6 +38,25 @@ main { padding: 26px 0 50px; }
   color: #111;
 }
 
+/* ---- Groupe à droite: langues | Contact ---- */
+.topbar-right{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-sep{
+  color: #bbb;
+  user-select: none;
+}
+
+.topbar-contact{
+  text-decoration: none;
+  font-weight: 700;
+  color: #222; /* ne change pas les langues */
+}
+.topbar-contact:hover{ text-decoration: underline; }
+
 .lang-switch{
   display: inline-flex;
   align-items: center;
@@ -124,89 +143,67 @@ html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", ser
 html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
 html[dir="rtl"] .page-content { text-align: right; }
 
-
-/* ===== Effet sombre (overlay) sans changer la couleur du bouton ===== */
+/* ===== Effet sombre (overlay) ===== */
+/* s'applique au menu, aux langues, et au lien Contact topbar */
 
 .menu-link,
-.lang-switch a{
+.lang-switch a,
+.topbar-contact{
   position: relative;
-  overflow: hidden;                 /* pour que l’overlay respecte l’arrondi */
+  overflow: hidden; /* respecte l'arrondi si présent */
   -webkit-tap-highlight-color: transparent;
   transition: transform 120ms cubic-bezier(.2,.8,.2,1), box-shadow 160ms ease;
   will-change: transform;
 }
 
-/* overlay sombre */
+/* overlay sombre (invisible par défaut) */
 .menu-link::before,
-.lang-switch a::before{
+.lang-switch a::before,
+.topbar-contact::before{
   content: "";
   position: absolute;
   inset: 0;
   border-radius: inherit;
   pointer-events: none;
-  background: rgba(0,0,0,0);        /* neutre par défaut */
-  transition: background 140ms ease;
+  opacity: 0;
+  background: rgba(0,0,0,.14);
+  transition: opacity 140ms ease;
 }
 
-/* Hover: très léger assombrissement */
+/* Hover: léger assombrissement (si tu n'en veux pas, supprime ce bloc) */
 .menu-link:hover::before,
-.lang-switch a:hover::before{
+.lang-switch a:hover::before,
+.topbar-contact:hover::before{
+  opacity: 1;
   background: rgba(0,0,0,.06);
 }
 
-/* Active (clic/tap): assombrissement plus marqué + press */
+/* Active (clic/tap): plus sombre + press */
 .menu-link:active,
-.lang-switch a:active{
+.lang-switch a:active,
+.topbar-contact:active{
   transform: translateY(1px) scale(.985);
   box-shadow: 0 4px 12px rgba(0,0,0,.12);
 }
 
 .menu-link:active::before,
-.lang-switch a:active::before{
+.lang-switch a:active::before,
+.topbar-contact:active::before{
+  opacity: 1;
   background: rgba(0,0,0,.14);
 }
 
-/* Focus clavier: anneau discret (optionnel) */
+/* Focus clavier */
 .menu-link:focus-visible,
-.lang-switch a:focus-visible{
+.lang-switch a:focus-visible,
+.topbar-contact:focus-visible{
   outline: 3px solid rgba(0,0,0,.18);
   outline-offset: 3px;
   border-radius: 999px;
 }
 
+/* Couleur du TEXTE uniquement pour les boutons du menu */
 .main-menu .menu-link,
 .main-menu .menu-link:visited{
   color: #2E7D32;
 }
-
-.footer-actions{
-  margin: 10px 0 6px;
-}
-
-.footer-contact{
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-  padding: 9px 14px;
-  border: 1px solid #e6e6e6;
-  border-radius: 999px;
-  background: #fafafa;
-}
-
-/* (optionnel) ton effet sombre au clic */
-.footer-contact{
-  position: relative;
-  overflow: hidden;
-}
-.footer-contact::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  border-radius: inherit;
-  pointer-events:none;
-  opacity:0;
-  background: rgba(0,0,0,.14);
-  transition: opacity 140ms ease;
-}
-.footer-contact:active::before{ opacity:1; }
-.footer-contact:active{ transform: translateY(1px) scale(.985); }
