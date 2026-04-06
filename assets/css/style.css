@@ -225,6 +225,7 @@ html[dir="rtl"] .page-content { text-align: right; }
   letter-spacing: .3px;
 }
 
+
 /* Grille responsive élégante */
 .footer-partners__logos {
   display: grid;
@@ -232,6 +233,7 @@ html[dir="rtl"] .page-content { text-align: right; }
   gap: 18px 22px;
   align-items: center;
   justify-items: center;
+  justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
 }
