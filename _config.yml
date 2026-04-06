@@ -3,6 +3,8 @@ description: "Site officiel du projet D3TIP (PHC Utique 2026)"
 url: "https://d3tip-phc-utique.github.io"
 baseurl: ""
 theme: minima
+minima:
+  show_excerpts: false
 
 header_pages:
   - fr/project.md
