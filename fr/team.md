@@ -7,7 +7,7 @@ key: team
 permalink: /fr/team/
 ---
 **Équipe française**  
-- **[Valentina BISCONTI](URL_PERSO)** — Université de Picardie Jules Verne (France)  
+- **[Valentina BISCONTI](https://cercll.u-picardie.fr/valentina-bisconti)** — Université de Picardie Jules Verne (France)  
   *PR* · *Compétences :* 
   
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
