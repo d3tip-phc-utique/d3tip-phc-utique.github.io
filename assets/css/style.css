@@ -228,11 +228,10 @@ html[dir="rtl"] .page-content { text-align: right; }
 
 /* Grille responsive élégante */
 .footer-partners__logos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 18px 22px;
   align-items: center;
-  justify-items: center;
   justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
