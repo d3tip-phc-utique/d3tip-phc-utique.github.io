@@ -7,6 +7,6 @@ key: contact
 permalink: /fr/contact/
 ---
 
-- partie française : [lichao.zhu@u-paris.fr](mailto:lichao.zhu@u-paris.fr)
+- partie française : [lichao.zhu@u-paris.fr](mailto:lichao.zhu@u-pariscite.fr)
 - partie tunisienne : [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)
 
