@@ -73,7 +73,7 @@ permalink: /fr/team/
   *MCF* · *Compétences :* 
 
 - **[Lassaad OUESLATI](URL_PERSO)** — Université de Tunis (Tunisie)  
-  *MCF* · *Compétences :* 
+  *MCF HDR* · *Compétences :* 
 
 - **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
   *MCF* · *Compétences :* 
