@@ -21,29 +21,49 @@ permalink: /fr/events/
 
 ### Journées d’études
 - **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité, Paris, FRANCE · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
-- **"Développement durable, corpus et IA** (05/11/2026) · ESSECT, Tunis, TUNISIE 
+- **"Développement durable, corpus et IA** (05/11/2026) · ESSECT, Tunis, TUNISIE (à venir)
 
 
 ### Séminaires
 - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (06/02/2026, Arras) · Prédication, contrastif, culture · [Le programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Pr%C3%A9dication,%20contrastif,%20culture_06-02-2026_LIEN_D%27INSCRIPTION.pdf)
 
 ### Colloques 
-- **I LeCAT — I Congresso Internacional Léxico, Cultura, Acessibilidade e Tecnologia** (16–19/06/2026) · Université de Brasília (UnB)
+- **I LeCAT — I Congresso Internacional Léxico, Cultura, Acessibilidade e Tecnologia** (16–19/06/2026) · Université de Brasília
 
   - **Table ronde III — « Développement durable : lexique, phraséologie et conceptualisation »**
     *Mercredi 17/06/2026· coordination : **Soumaya Mejri** *
-    - **Soumaya Mejri** (Université de Tunis) — « La phraséologie dans la conceptualisation du développement durable »
-    - **Dorra Talbi** (Université de Tunis) — « Cadre conceptuel économique du développement durable : l'exemple de l'inclusion financière »
-    - **Nour El Houda Yeferni** (Université de Tunis) — « Cadre conceptuel social du développement durable »
-    - **Rania Aloui** (Université de Tunis) — « Cadre conceptuel environnemental du développement durable »
+    - **Soumaya Mejri** — « La phraséologie dans la conceptualisation du développement durable »
+    - **Dorra Talbi** — « Cadre conceptuel économique du développement durable : l'exemple de l'inclusion financière »
+    - **Nour El Houda Yeferni** — « Cadre conceptuel social du développement durable »
+    - **Rania Aloui** — « Cadre conceptuel environnemental du développement durable »
+    - Mohamed Hamdoun (Université de Tunis) — « Le développement durable : agir pour aujourd'hui et pour demain »
   
   - **Table ronde VI — « Phraséologie et texte littéraire : la littérature comme espace de créativité linguistique »**
-    *Jeudi 18/06/2026 coordination : Angelo Sampaio (UFBA)* Participations 
-    - **Thouraya Ben Amor** (Université de la Manouba, Tunisie) — « Défigement et créativité littéraire chez Queneau »
-    - **Imen Mizouri** (Université Sorbonne Paris Nord, France) — « La phraséologie dans la trilogie de Pierre Lemaitre »
+    *Jeudi 18/06/2026 coordination : Angelo Sampaio (Université fédérale de Bahia)* 
+    - **Thouraya Ben Amor**  — « Défigement et créativité littéraire chez Queneau »
+    - **Imen Mizouri**  — « La phraséologie dans la trilogie de Pierre Lemaitre »
+    - Sounayhawand Moalla (Université de la Manouba, Tunisie) — « *Diadorim*, de Guimarães Rosa : la phraséologie comme marqueur diatopique et idiosyncrasique »
 
   - **Table ronde VII — « Corpus, IA et phraséologie »**
     *Jeudi 18/06/2026, coordination : **Lichao Zhu** *
-    - **Luis Meneses-Lerín** (Université d'Artois, France) — « Le domaine collocationnel du mot *recyclage* : corpus textuel, corpus dictionnairique et IA »
-    - **Monia Bouali** (Université de Gafsa, Tunisie) — « Synthèses de points de vue sur l'usage des pesticides : comment élaborer un prompt pour obtenir des opinions contradictoires ? »
-    - **Intissar Boughalmi** (Université Paris Cité, France & Université de la Manouba, Tunisie) — « La néologie polylexicale : collecte de données et IA »
+    - **Luis Meneses-Lerín** — « Le domaine collocationnel du mot *recyclage* : corpus textuel, corpus dictionnairique et IA »
+    - **Monia Bouali** — « Synthèses de points de vue sur l'usage des pesticides : comment élaborer un prompt pour obtenir des opinions contradictoires ? »
+    - **Intissar Boughalmi** — « La néologie polylexicale : collecte de données et IA »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mise à jour le 16/08/2026.
