@@ -18,9 +18,9 @@ permalink: /fr/events/
 7. **Linguistique et épistémologie (1)** (06/05/2026) · Invité : *Salah Mejri* 
 8. **Linguistique et épistémologie (2)** (03/06/2026) · Invité : *Salah Mejri*
 
-### Journées d’études
-- **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité, Paris, FRANCE · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
-- **"Développement durable, corpus et IA** (05/11/2026) · ESSECT, Tunis, TUNISIE (à venir)
+### Journées d’études 
+- **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité, Paris, FRANCE · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
+- **Développement durable, corpus et IA** (05/11/2026) · ESSECT, Tunis, TUNISIE (à venir)
 
 
 ### Séminaires
