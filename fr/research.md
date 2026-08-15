@@ -29,5 +29,25 @@ permalink: /fr/research/
 - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (06/02/2026, Arras) · Prédication, contrastif, culture · [Le programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Pr%C3%A9dication,%20contrastif,%20culture_06-02-2026_LIEN_D%27INSCRIPTION.pdf)
 
 ### Colloques 
-- **Colloque au Brésil** (16-19/06/2026) · Brasilia 
+- **I LeCAT — I Congresso Internacional Léxico, Cultura, Acessibilidade e Tecnologia** (16–19/06/2026) · Université de Brasília (UnB)
+  
+  **Participation de l'équipe D3TIP — tables rondes**
+
+  - **Table ronde III — « Développement durable : lexique, phraséologie et conceptualisation »**
+    *Mercredi 17/06/2026· coordination : **Soumaya Mejri** *
+    - **Soumaya Mejri** (Université de Tunis) — « La phraséologie dans la conceptualisation du développement durable »
+    - **Dorra Talbi** (Université de Tunis) — « Cadre conceptuel économique du développement durable : l'exemple de l'inclusion financière »
+    - **Nour El Houda Yeferni** (Université de Tunis) — « Cadre conceptuel social du développement durable »
+    - **Rania Aloui** (Université de Tunis) — « Cadre conceptuel environnemental du développement durable »
+  
+  - **Table ronde VI — « Phraséologie et texte littéraire : la littérature comme espace de créativité linguistique »**
+    *Jeudi 18/06/2026 coordination : Angelo Sampaio (UFBA)* Participations 
+    - **Thouraya Ben Amor** (Université de la Manouba, Tunisie) — « Défigement et créativité littéraire chez Queneau »
+    - **Imen Mizouri** (Université Sorbonne Paris Nord, France) — « La phraséologie dans la trilogie de Pierre Lemaitre »
+
+  - **Table ronde VII — « Corpus, IA et phraséologie »**
+    *Jeudi 18/06/2026, coordination : **Lichao Zhu** *
+    - **Luis Meneses-Lerín** (Université d'Artois, France) — « Le domaine collocationnel du mot *recyclage* : corpus textuel, corpus dictionnairique et IA »
+    - **Monia Bouali** (Université de Gafsa, Tunisie) — « Synthèses de points de vue sur l'usage des pesticides : comment élaborer un prompt pour obtenir des opinions contradictoires ? »
+    - **Intissar Boughalmi** (Université Paris Cité, France & Université de la Manouba, Tunisie) — « La néologie polylexicale : collecte de données et IA »
 
