@@ -7,5 +7,5 @@ key: contact
 permalink: /en/contact/
 ---
 
-- French side: [lichao.zhu@u-pariscite.fr](mailto:lichao.zhu@u-pariscite.fr)
-- Tunisian side: [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)
+- Coordination (France): [lichao.zhu@u-pariscite.fr](mailto:lichao.zhu@u-pariscite.fr)
+- Coordination (Tunisia): [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)

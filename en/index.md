@@ -8,12 +8,12 @@ permalink: /en/
 ---
 
 
-Welcome to the website of **Sustainable Development Discourse: Phraseological Computational Processing (D3TIP)**, a funded research project (PHC Utique 2026, grant no. 54107SD/26G0606). The project is supported by Campus France for the period 2026–2029.
+This website presents **Discours du Développement Durable : Traitement Informatique Phraséologique (D3TIP) [Sustainable Development Discourse: Phraseological Computational Processing]**, a funded research project (PHC Utique 2026, grant no. 54107SD/26G0606). The project is supported by Campus France for the period 2026–2029.
 
-D3TIP is a French–Tunisian scientific project devoted to the collection and linguistic analysis of data on **sustainable development discourse**.
+D3TIP is a French–Tunisian scientific project which aims data collection and linguistic data analysis on **sustainable development discourse**.
 
 ## Approach and data
-Adopting a multidisciplinary approach (linguistics, management science, NLP), the project draws on heterogeneous corpora relating to sustainable development in the Tunisian context (government texts, legal texts, institutional reports, social media, etc.).
+Adopting a multidisciplinary approach (linguistics, management science, NLP), the project studies heterogeneous corpora relating to sustainable development in the Tunisian context (government texts, legal texts, institutional reports, social media, etc.).
 
 ## Research objectives
 The main research objectives are:
@@ -22,7 +22,7 @@ The main research objectives are:
 - fine-grained phraseological, terminological and discursive analysis of sustainable development texts.
 
 ## Applied developments
-On the applied side, D3TIP plans to develop an AI-assisted decision-support tool comprising:
+On the applied side, D3TIP aims to develop an AI-assisted decision-support tool comprising:
 - an interactive query module based on validated expert data;
 - a multilingual terminological database of sustainable development;
 - a corpus exploitation tool dedicated to the project.
