@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}" dir="{{ page.dir | default: 'ltr' }}">
+  <head>{% include head.html %}</head>
+  <body>
+    {% include nav.html %}
+    <main class="container" id="content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# Chaines d'interface, par langue.
+# Ajouter une langue = ajouter un bloc ici + une entree dans `languages`
+# de _config.yml + un dossier de pages avec les memes `key`.
+fr:
+  site_description: "Site officiel du projet D3TIP (PHC Utique 2026)"
+  contact: "Contact"
+  main_menu: "Menu principal"
+  lang_label: "Choix de la langue"
+  skip_to_content: "Aller au contenu"
+en:
+  site_description: "Official website of the D3TIP project (PHC Utique 2026)"
+  contact: "Contact"
+  main_menu: "Main menu"
+  lang_label: "Language selection"
+  skip_to_content: "Skip to content"

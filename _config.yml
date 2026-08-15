@@ -6,10 +6,42 @@ theme: minima
 minima:
   show_excerpts: false
 
-header_pages:
-  - fr/project.md
-  - fr/team.md
-  - fr/events.md
-  - fr/publications.md
-  - fr/bibliography.md
-  - fr/partners.md
+# ---- Internationalisation -------------------------------------------------
+# Langue utilisée en secours quand une page n'en déclare pas.
+default_lang: fr
+
+# Langues proposées par le sélecteur (ordre d'affichage).
+languages:
+  - code: fr
+    label: FR
+    name: "Français"
+  - code: en
+    label: EN
+    name: "English"
+
+# Ordre du menu principal, exprimé en CLES de page (page.key) et non en
+# chemins de fichiers : le meme ordre sert donc pour toutes les langues.
+nav_order:
+  - home
+  - team
+  - events
+  - publications
+  - bibliography
+  - partners
+
+# ---- Valeurs par defaut ---------------------------------------------------
+# Filet de securite : meme si une page oublie `lang` / `dir` dans son
+# front matter, elle reste rattachee a la bonne langue.
+defaults:
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+      dir: ltr
+      layout: page
+  - scope:
+      path: "en"
+    values:
+      lang: en
+      dir: ltr
+      layout: page

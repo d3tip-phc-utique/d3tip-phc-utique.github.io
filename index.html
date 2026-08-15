@@ -1,6 +1,35 @@
+---
+sitemap: false
+---
 <!doctype html>
+<html lang="fr">
+<head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=/fr">
-<link rel="canonical" href="/fr">
-<title>Redirecting…</title>
-<p>Redirection vers <a href="/fr">/fr</a>…</p>
+<meta name="robots" content="noindex">
+<title>D3TIP</title>
+{%- for l in site.languages %}
+<link rel="alternate" hreflang="{{ l.code }}" href="{{ '/' | append: l.code | append: '/' | absolute_url }}">
+{%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ '/' | append: site.default_lang | append: '/' | absolute_url }}">
+<link rel="canonical" href="{{ '/' | append: site.default_lang | append: '/' | absolute_url }}">
+<!-- Repli sans JavaScript : redirection vers la langue par defaut. -->
+<noscript><meta http-equiv="refresh" content="0; url={{ '/' | append: site.default_lang | append: '/' | relative_url }}"></noscript>
+<script>
+  (function () {
+    var supported = [{% for l in site.languages %}"{{ l.code }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var fallback  = "{{ site.default_lang }}";
+    var base      = "{{ site.baseurl }}";
+    var wanted    = (navigator.languages && navigator.languages[0]) || navigator.language || fallback;
+    var code      = String(wanted).toLowerCase().slice(0, 2);
+    if (supported.indexOf(code) === -1) { code = fallback; }
+    location.replace(base + "/" + code + "/");
+  })();
+</script>
+</head>
+<body>
+<p>Redirection… /
+   <a href="{{ '/fr/' | relative_url }}">Français</a> ·
+   <a href="{{ '/en/' | relative_url }}">English</a>
+</p>
+</body>
+</html>
