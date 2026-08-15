@@ -3,7 +3,7 @@ layout: page
 title: "Bibliographie"
 lang: fr
 dir: ltr
-key: publications
+key: bibliography
 permalink: /fr/bibliography/
 ---
 

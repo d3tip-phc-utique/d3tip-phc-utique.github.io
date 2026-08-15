@@ -1,36 +1,36 @@
-{%- assign lang = page.lang | default: 'fr' -%}
-{%- assign home = '/' | append: lang | append: '/' -%}
+{%- comment -%}
+  Menu principal.
+  Construit a partir de site.nav_order (des CLES) et non plus de
+  site.header_pages (des chemins "fr/..."), qui laissait le menu anglais vide.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.default_lang | default: 'fr' -%}
+{%- assign t = site.data.i18n[lang] -%}
+
+{%- assign home_page = site.pages | where: 'lang', lang | where: 'key', 'home' | first -%}
+{%- capture fallback_home -%}/{{ lang }}/{%- endcapture -%}
+{%- assign home_url = home_page.url | default: fallback_home -%}
+
+{%- assign contact_page = site.pages | where: 'lang', lang | where: 'key', 'contact' | first -%}
 
 <header class="topbar">
   <div class="container navwrap">
-    <a class="brand" href="{{ home | relative_url }}">{{ site.title }}</a>
+    <a class="brand" href="{{ home_url | relative_url }}">{{ site.title }}</a>
     <div class="topbar-right">
       {% include lang-switch.html %}
-      <span class="topbar-sep">|</span>
-      <a class="topbar-contact" href="{{ home | append: 'contact/' | relative_url }}">
-        {% if lang == 'ar' %}اتصل بنا{% else %}Contact{% endif %}
+      {%- if contact_page %}
+      <span class="topbar-sep" aria-hidden="true">|</span>
+      <a class="topbar-contact" href="{{ contact_page.url | relative_url }}"
+         {% if page.url == contact_page.url %}aria-current="page"{% endif %}>
+        {{ contact_page.title | default: t.contact | escape }}
       </a>
+      {%- endif %}
     </div>
   </div>
 
-  <nav class="main-menu container" aria-label="Menu principal">
-    <a class="menu-link" href="{{ home | relative_url }}"
-       {% if page.url == home %}aria-current="page"{% endif %}>
-      {%- case lang -%}
-        {%- when 'en' -%}Home
-        {%- when 'ar' -%}الرئيسية
-        {%- else -%}Accueil
-      {%- endcase -%}
-    </a>
-
-    {%- assign contact_url = home | append: 'contact/' -%}
-    {%- assign page_paths = site.header_pages -%}
-    {%- for path in page_paths -%}
-      {%- assign my_page = site.pages | where: "path", path | first -%}
-      {%- if my_page.title
-             and my_page.lang == lang
-             and my_page.url != home
-             and my_page.url != contact_url -%}
+  <nav class="main-menu container" aria-label="{{ t.main_menu | default: 'Menu' }}">
+    {%- for k in site.nav_order -%}
+      {%- assign my_page = site.pages | where: 'lang', lang | where: 'key', k | first -%}
+      {%- if my_page and my_page.title -%}
         <a class="menu-link" href="{{ my_page.url | relative_url }}"
            {% if page.url == my_page.url %}aria-current="page"{% endif %}>
           {{ my_page.title | escape }}

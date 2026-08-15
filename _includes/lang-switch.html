@@ -1,15 +1,33 @@
-{% assign k = page.key | default: '' %}
+{%- comment -%}
+  Selecteur de langue.
+  On ne fabrique PLUS l'URL a la main ("/fr/" + key) : on va chercher la page
+  reelle qui porte la meme `key` dans la langue cible. Consequence : le lien
+  ne peut plus pointer vers une URL inexistante, et il continue de fonctionner
+  meme si les deux langues n'utilisent pas le meme slug.
+  Si la traduction n'existe pas, on retombe sur l'accueil de la langue cible.
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.default_lang | default: 'fr' -%}
+{%- assign cur_key  = page.key  | default: 'home' -%}
+{%- assign t = site.data.i18n[cur_lang] -%}
 
-{% assign fr_path = '/fr' %}
-{% assign en_path = '/en' %}
-{% if k != '' %}
-  {% assign fr_path = fr_path | append: '/' | append: k %}
-  {% assign en_path = en_path | append: '/' | append: k %}
-{% endif %}
-{% assign fr_path = fr_path | append: '/' %}
-{% assign en_path = en_path | append: '/' %}
-<div class="lang-switch">
-  <a href="{{ fr_path | relative_url }}">FR</a>
-  <span>·</span>
-  <a href="{{ en_path | relative_url }}">EN</a>
+<div class="lang-switch" role="group" aria-label="{{ t.lang_label | default: 'Language' }}">
+  {%- for l in site.languages -%}
+    {%- assign target = site.pages | where: 'lang', l.code | where: 'key', cur_key | first -%}
+    {%- unless target -%}
+      {%- assign target = site.pages | where: 'lang', l.code | where: 'key', 'home' | first -%}
+    {%- endunless -%}
+    {%- capture fallback_url -%}/{{ l.code }}/{%- endcapture -%}
+    {%- assign target_url = target.url | default: fallback_url -%}
+
+    {%- if l.code == cur_lang -%}
+      <span class="lang-current" lang="{{ l.code }}" aria-current="true">{{ l.label }}</span>
+    {%- else -%}
+      <a href="{{ target_url | relative_url }}"
+         lang="{{ l.code }}"
+         hreflang="{{ l.code }}"
+         rel="alternate"
+         title="{{ l.name }}">{{ l.label }}</a>
+    {%- endif -%}
+    {%- unless forloop.last -%}<span class="lang-sep" aria-hidden="true">·</span>{%- endunless -%}
+  {%- endfor -%}
 </div>

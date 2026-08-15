@@ -3,7 +3,7 @@ layout: page
 title: "Partenaires"
 lang: fr
 dir: ltr
-key: contact
+key: partners
 permalink: /fr/partners/
 ---
 

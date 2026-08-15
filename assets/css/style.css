@@ -74,6 +74,22 @@ main { padding: 26px 0 50px; }
 
 .lang-switch a:hover{ text-decoration: underline; }
 
+/* Langue affichée actuellement : non cliquable, visuellement distincte */
+.lang-switch .lang-current{
+  font-weight: 700;
+  color: #fff;
+  background: #1F8A8F;
+  padding: 6px 10px;
+  border: 1px solid #1F8A8F;
+  border-radius: 999px;
+  cursor: default;
+}
+
+.lang-switch .lang-sep{
+  color: #bbb;
+  user-select: none;
+}
+
 /* Menu sous les langues */
 .main-menu{
   display: flex;

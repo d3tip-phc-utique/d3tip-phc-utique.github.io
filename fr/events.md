@@ -3,7 +3,7 @@ layout: page
 title: "Événements"
 lang: fr
 dir: ltr
-key: contact
+key: events
 permalink: /fr/events/
 ---
 ## 2026

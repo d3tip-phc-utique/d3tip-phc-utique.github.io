@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Accueil"
+lang: fr
+dir: ltr
+key: home
 permalink: /fr/
 ---
 
