@@ -9,7 +9,6 @@ minima:
 header_pages:
   - fr/project.md
   - fr/team.md
-  - fr/research.md
   - fr/events.md
   - fr/publications.md
   - fr/bibliography.md
