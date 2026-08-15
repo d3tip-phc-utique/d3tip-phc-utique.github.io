@@ -7,6 +7,4 @@ key: publications
 permalink: /fr/publications/
 ---
 
-
-- Article 1 (année) – lien
-- Article 2 (année) – lien
+A venir.
