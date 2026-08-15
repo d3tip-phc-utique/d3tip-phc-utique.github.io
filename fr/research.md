@@ -19,13 +19,15 @@ permalink: /fr/research/
 - **Linguistique générale** (08/04/2026) · Animateur : *Thouraya Ben Amor*
 - **Linguistique et épistémologie (1)** (06/05/2026) · Invité : *Salah Mejri*
 - **Linguistique et épistémologie (2)** (03/06/2026) · Invité : *Salah Mejri*
-- 
+
 ### Journées d’études
-- **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
+- **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité, Paris, FRANCE · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
+- **"Développement durable, corpus et IA** (05/11/2026) · ESSECT, Tunis, TUNISIE 
+
 
 ### Séminaires
 - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (06/02/2026, Arras) · Prédication, contrastif, culture · [Le programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Pr%C3%A9dication,%20contrastif,%20culture_06-02-2026_LIEN_D%27INSCRIPTION.pdf)
 
 ### Colloques 
-- **Colloque au Brésil** (16-19/06/2026) · Brasilia
+- **Colloque au Brésil** (16-19/06/2026) · Brasilia 
 
