@@ -21,7 +21,7 @@ permalink: /fr/research/
 - **Linguistique et épistémologie (2)** (03/06/2026) · Invité : *Salah Mejri*
 - 
 ### Journées d’études
-- **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité · [https://dico-et-d3.sciencesconf.org](Site de la JE) | [https://dico-et-d3.sciencesconf.org](Site de la JE)
+- **"Dictionnaire et discours du développement durable" & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité · [Site de la JE](https://dico-et-d3.sciencesconf.org) | [Affiche](../assets/logos/JE_DICO-DISCOURS-DD.pdf)
 
 ### Séminaires
 - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (06/02/2026, Arras) · Prédication, contrastif, culture · [Le programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Pr%C3%A9dication,%20contrastif,%20culture_06-02-2026_LIEN_D%27INSCRIPTION.pdf)
