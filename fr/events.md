@@ -14,9 +14,10 @@ permalink: /fr/events/
 3. **Traitements automatiques du corpus et des langues (3) : outils et démonstration** (11/03/2026) · Animateur : *Lichao Zhu* 
 4. **Traitements automatiques du corpus et des langues (4) : Regex et opérations de base sur le texte** (18/03/2026) · Animateur : *Lichao Zhu* 
 5. **Traitements automatiques du corpus et des langues (5) : formats de texte** (25/03/2026) · Animateur : *Lichao Zhu* 
-6. **Linguistique générale** (08/04/2026) · Animateur : *Thouraya Ben Amor* 
-7. **Linguistique et épistémologie (1)** (06/05/2026) · Invité : *Salah Mejri* 
-8. **Linguistique et épistémologie (2)** (03/06/2026) · Invité : *Salah Mejri*
+6. **Linguistique générale** (08/04/2026) · Animateur : *Thouraya Ben Amor*
+7. **Sciences de gestion** (22/04/2026) · Animateur : *Soumaya Mejri*
+8. **Linguistique et épistémologie (1)** (06/05/2026) · Invité : *Salah Mejri* 
+9. **Linguistique et épistémologie (2)** (03/06/2026) · Invité : *Salah Mejri*
 
 
 ### Journées d'études
