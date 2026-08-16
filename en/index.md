@@ -13,7 +13,7 @@ This website presents **Discours du Développement Durable : Traitement Informat
 D3TIP is a French–Tunisian scientific project which aims data collection and linguistic data analysis on **sustainable development discourse**.
 
 ## Approach and data
-Adopting a multidisciplinary approach (linguistics, management science, NLP), the project studies heterogeneous corpora relating to sustainable development in the Tunisian context (government texts, legal texts, institutional reports, social media, etc.).
+Adopting a multidisciplinary approach (linguistics, management science, NLP), the project exploits heterogeneous corpora relating to sustainable development in the Tunisian context (government texts, legal texts, institutional reports, social media, etc.).
 
 ## Research objectives
 The main research objectives are:
