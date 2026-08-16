@@ -30,7 +30,7 @@ permalink: /en/events/
 - **I LeCAT — I Congresso Internacional Léxico, Cultura, Acessibilidade e Tecnologia** (16–19 June 2026) · University of Brasília
 
   - **Round table III — "Sustainable development: lexicon, phraseology and conceptualisation"**
-    *Wednesday 17 June 2026 · convenor: **Soumaya Mejri***
+    Wednesday 17 June 2026 · convenor: **Soumaya Mejri**
     - **Soumaya Mejri** — "La phraséologie dans la conceptualisation du développement durable"
     - **Dorra Talbi** — "Cadre conceptuel économique du développement durable : l'exemple de l'inclusion financière"
     - **Nour El Houda Yeferni** — "Cadre conceptuel social du développement durable"
@@ -38,13 +38,13 @@ permalink: /en/events/
     - Mohamed Hamdoun (University of Tunis) — "Le développement durable : agir pour aujourd'hui et pour demain"
   
   - **Round table VI — "Phraseology and literary text: literature as a space of linguistic creativity"**
-    *Thursday 18 June 2026 · convenor: Angelo Sampaio (Federal University of Bahia)* 
+    Thursday 18 June 2026 · convenor: Angelo Sampaio (Federal University of Bahia)
     - **Thouraya Ben Amor** — "Défigement et créativité littéraire chez Queneau"
     - **Imen Mizouri** — "La phraséologie dans la trilogie de Pierre Lemaitre"
     - Sounayhawand Moalla (University of Manouba, Tunisia) — "*Diadorim*, de Guimarães Rosa : la phraséologie comme marqueur diatopique et idiosyncrasique"
 
   - **Round table VII — "Corpora, AI and phraseology"**
-    *Thursday 18 June 2026 · convenor: **Lichao Zhu*** 
+    Thursday 18 June 2026 · convenor: **Lichao Zhu**
     - **Luis Meneses-Lerín** — "Le domaine collocationnel du mot *recyclage* : corpus textuel, corpus dictionnairique et IA"
     - **Monia Bouali** — "Synthèses de points de vue sur l'usage des pesticides : comment élaborer un prompt pour obtenir des opinions contradictoires ?"
     - **Intissar Boughalmi** — "La néologie polylexicale : collecte de données et IA"
