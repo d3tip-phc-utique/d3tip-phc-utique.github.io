@@ -20,7 +20,7 @@ permalink: /en/events/
 
 
 ### Study days
-- **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (9 June 2026) · Room 720, Olympe de Gouges Building, Grands Moulins Campus, Université Paris Cité, Paris, FRANCE · [Event website](https://dico-et-d3.sciencesconf.org) | [Poster](/assets/logos/JE_DICO-DISCOURS-DD.pdf)
+- **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (9 June 2026) · Room 720, Olympe de Gouges Building, Grands Moulins Campus, Université Paris Cité, Paris, FRANCE · [Event website](https://dico-et-d3.sciencesconf.org) · [Poster](/assets/logos/JE_DICO-DISCOURS-DD.pdf)
 - **Développement durable, corpus et IA** (5 November 2026) · ESSECT, Tunis, TUNISIA (forthcoming)
 
 ### Seminars
