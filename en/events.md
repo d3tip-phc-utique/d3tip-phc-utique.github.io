@@ -15,7 +15,7 @@ permalink: /en/events/
 4. **Corpus and language processing (4): regular expressions and basic text operations** (18 March 2026) · Convenor: *Lichao Zhu* 
 5. **Corpus and language processing (5): text formats** (25 March 2026) · Convenor: *Lichao Zhu* 
 6. **General linguistics** (8 April 2026) · Convenor: *Thouraya Ben Amor*
-7. **Management Sciences** (22/04/2026) · Convenor: *Soumaya Mejri*
+7. **Management Sciences** (22 April 2026) · Convenor: *Soumaya Mejri*
 8. **Linguistics and epistemology (1)** (6 May 2026) · Guest speaker: *Salah Mejri* 
 9. **Linguistics and epistemology (2)** (3 June 2026) · Guest speaker: *Salah Mejri*
 
