@@ -53,4 +53,4 @@ permalink: /en/events/
     - **Monia Bouali** — "Synthèses de points de vue sur l'usage des pesticides : comment élaborer un prompt pour obtenir des opinions contradictoires ?"
     - **Intissar Boughalmi** — "La néologie polylexicale : collecte de données et IA"
 
-Last updated: 16 August 2026.
+Last updated: 19 August 2026.
