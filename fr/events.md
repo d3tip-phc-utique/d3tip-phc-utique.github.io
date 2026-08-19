@@ -69,4 +69,4 @@ permalink: /fr/events/
 
 
 
-Mise à jour le 16/08/2026.
+Mise à jour le 19/08/2026.
