@@ -19,6 +19,9 @@ permalink: /en/events/
 8. **Linguistics and epistemology (1)** (6 May 2026) · Guest speaker: *Salah Mejri* 
 9. **Linguistics and epistemology (2)** (3 June 2026) · Guest speaker: *Salah Mejri*
 
+### Doctoriales PHC Utique
+- Thesis presentation **Les discours des organisations internationales sur le développement durable en Tunisie : approche linguistique informatique** · 10/06/2026 · *Rania Aloui*
+- Thesis presentation **La néologie polylexicale: (in)variance formelle et prédicative dans le discours du développent durable.** · 10/06/2026 · *Intissar Boughalmi*
 
 ### Study days
 - **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (9 June 2026) · Room 720, Olympe de Gouges Building, Grands Moulins Campus, Université Paris Cité, Paris, FRANCE · [Event website](https://dico-et-d3.sciencesconf.org) · [Poster](/assets/logos/JE_DICO-DISCOURS-DD.pdf)
