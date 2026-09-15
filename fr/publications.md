@@ -25,8 +25,8 @@ permalink: /fr/publications/
  
  
 ### Revues 
-1. **Les Cahiers du dictionnaire**, n° 18, *Dictionnaire et insularité / Dictionnaire et discours du développement durable*. Numéro dirigé par Giovanni Dotoli, **Salah Mejri**, **Soumaya Mejri**, Nicolas Sorba & **Lichao Zhu**. Paris, Classiques Garnier. [Les Cahiers du dictionnaire](https://classiques-garnier.com/les-cahiers-du-dictionnaire.html).
-2. **Synergies Tunisie**, n°8, *Langues / Discours spécialisés : problématiques théoriques et appliquées*. Numéro coordonné par **Soumaya Mejri** & **Monia Bouali**. Paris, Gerflint. [Synergies Tunisie](https://gerflint.com/synergies-tunisie/8-2025)).
+1. ***Les Cahiers du dictionnaire***, n° 18, *Dictionnaire et insularité / Dictionnaire et discours du développement durable*. Numéro dirigé par Giovanni Dotoli, **Salah Mejri**, **Soumaya Mejri**, Nicolas Sorba & **Lichao Zhu**. Paris, Classiques Garnier. [Les Cahiers du dictionnaire](https://classiques-garnier.com/les-cahiers-du-dictionnaire.html).
+2. ***Synergies Tunisie***, n°8, *Langues / Discours spécialisés : problématiques théoriques et appliquées*. Numéro coordonné par **Soumaya Mejri** & **Monia Bouali**. Paris, Gerflint. [Synergies Tunisie](https://gerflint.com/synergies-tunisie/8-2025)).
  
 
 
