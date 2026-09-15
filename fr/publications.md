@@ -11,14 +11,14 @@ permalink: /fr/publications/
 
 
 ### Articles
-1. **BEN AMOR Thouraya** & **BOUALI Monia** (2025), « Modalité et intelligence artificielle », *Synergies Tunisie* n°8, éditions Gerflint, p. 229-260.
-2. **MEJRI Salah** (2026a), « La phraséologie du développement durable : interdisciplinarité, méthodologie et heuristique », *Les cahiers du dictionnaire* n°18, *Dictionnaire et discours du développement durable*. Paris, Classiques Garnier, p. 220-234.
-3. **MEJRI Salah** (2026b), « Les enjeux linguistiques de l’Intelligence Artificielle (IA) », *Langues et intelligence artificielle / Lingue e intelligenza artificiale*, éd. G. Dotoli et S. Mejri, Paris / Alberobello, L’Harmattan / AGA, p.27-51.
-4.**MEJRI Salah** & **MIZOURI Imen**(2026), « Phraséologie domaniale et Intelligence Artificielle (IA) », *ÉLA : Études de Linguistique Appliquée*, numéro thématique *Lexicographie, métalexicographie et intelligence artificielle*, dir. C. Boccuzzi & P. Ligas, à paraître. 
-5. **ZHU Lichao** (2026), «L’intelligence artificielle générative comme instrument d’investigation linguistique : expérimentations, applications et retombées théoriques. Le cas du projet D3TIP », *Langues et intelligence artificielle / Lingue e intelligenza artificiale*, éd. G. Dotoli et S. Mejri, Paris / Alberobello, L’Harmattan / AGA, p. 79-106.
+1. **ALOUI Rania**  & **MEJRI Soumaya** (2025), « Ambiguïté du développement durable durable », *Synergies Tunisie* n°8, éditions Gerflint, p. 341-374.
+2. **BEN AMOR Thouraya** & **BOUALI Monia** (2025), « Modalité et intelligence artificielle », *Synergies Tunisie* n°8, éditions Gerflint, p. 229-260.
+3. **MEJRI Salah** (2026a), « La phraséologie du développement durable : interdisciplinarité, méthodologie et heuristique », *Les cahiers du dictionnaire* n°18, *Dictionnaire et discours du développement durable*. Paris, Classiques Garnier, p. 220-234.
+4. **MEJRI Salah** (2026b), « Les enjeux linguistiques de l’Intelligence Artificielle (IA) », *Langues et intelligence artificielle / Lingue e intelligenza artificiale*, éd. G. Dotoli et S. Mejri, Paris / Alberobello, L’Harmattan / AGA, p.27-51.
+5. **MEJRI Salah** & **MIZOURI Imen**(2026), « Phraséologie domaniale et Intelligence Artificielle (IA) », *ÉLA : Études de Linguistique Appliquée*, numéro thématique *Lexicographie, métalexicographie et intelligence artificielle*, dir. C. Boccuzzi & P. Ligas, à paraître. 
 6. **MIZOURI Imen** (2026), « Les collocations à base terminologique », *Phraséologie et culture : idiomaticité, opacité et fonction identitaire*, éd. A. Sampaio, Salvador de Bahia, EDUFBA, à paraître.
 7. **YEFERNI Nour El Houda** & **MEJRI Soumaya** (2025), « Proposition de la notion de « culture durable » : cas COFICAB »,  *Synergies Tunisie* n°8, éditions Gerflint, p. 311-340.
-8. **ALOUI Rania**  & **MEJRI Soumaya** (2025), « Ambiguïté du développement durable durable », *Synergies Tunisie* n°8, éditions Gerflint, p. 341-374.
+8. **ZHU Lichao** (2026), «L’intelligence artificielle générative comme instrument d’investigation linguistique : expérimentations, applications et retombées théoriques. Le cas du projet D3TIP », *Langues et intelligence artificielle / Lingue e intelligenza artificiale*, éd. G. Dotoli et S. Mejri, Paris / Alberobello, L’Harmattan / AGA, p. 79-106.
 
  
  
