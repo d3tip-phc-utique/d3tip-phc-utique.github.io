@@ -8,7 +8,7 @@ permalink: /fr/events/
 ---
 ## 2026
 
-### Ateliers de formation du projet 
+### Ateliers de formation de projets 
 1. **Traitements automatiques du corpus et des langues (1) : premiers éléments du corpus D3TIP** (25/02/2026) · Animateur : *Lichao Zhu* 
 2. **Traitements automatiques du corpus et des langues (2) : traitements récursifs et tris** (04/03/2026) · Animateur : *Lichao Zhu* 
 3. **Traitements automatiques du corpus et des langues (3) : outils et démonstration** (11/03/2026) · Animateur : *Lichao Zhu* 
