@@ -13,7 +13,7 @@ permalink: /fr/bibliography/
 3. **Chandelier Marie** (2023), « Inter-discours, fréquences et cooccurrences dans le rapport Brundtland : enjeux argumentatifs de la définition de développement durable », *Études linguistiques appliquées*, Klincksieck, 1(209), p. 81-97.
 4. **Condamines Anne** (2005), « Linguistique de corpus et terminologie », *Langages*, 157, p. 36-47.
 5. **Krieg-Planque Alice** (2010), « La formule "développement durable" : un opérateur de neutralisation de la conflictualité », *Langage et société*, 134, p. 5-29.
-6. **Krotov Vlad** & **Silva Leiser** (2018), « Legality and ethics of web scraping », Proceedings of AMCIS.
+6. **Krotov Vlad** & **Silva Leiser** (2018), « Legality and ethics of web scraping », *Proceedings of AMCIS*, Twenty-fourth Americas Conference on Information Systems, New Orleans.
 7. **Kübler Natalie** & **Pecman Mojca** (2012), « The ARTES bilingual LSP dictionary: from collocation to higher order phraseology », Dans Sylviane Granger & Magali Paquot (dir.), *Electronic Lexicography*, Oxford : Oxford University Press, p. 187-209.
 8. **Lerat Pierre** (1995), *Les langues spécialisées*. Paris : Presses Universitaires de France.
 9. **L'Homme Marie-Claude** (2004), *La terminologie : principes et techniques*, Montréal : Les Presses de l'Université de Montréal, coll. « Paramètres ».
