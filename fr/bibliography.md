@@ -29,9 +29,8 @@ permalink: /fr/bibliography/
 19. **Rey-Debove Josette** (1986), *Le métalangage*, Le Robert.
 20. **Sinclair John** (1991), *Corpus, Concordance, Collocation*, Oxford : Oxford University Press.
 21. **Zaccaï Edwin** (2011), *25 ans de développement durable, et après ?*, Paris : Presses Universitaires de France.
-22. **Zhu Lichao** (2022), « Discours dictionnairique, moule phraséologique et corpus textuel », *Langages*, 1 (225), p. 127-151. 
-
-    -	
+22. **Zhu Lichao** (2022), « Discours dictionnairique, moule phraséologique et corpus textuel », *Langages*, 1 (225), p. 127-151.
+    
 
  
 
