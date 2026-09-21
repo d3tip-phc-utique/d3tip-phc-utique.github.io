@@ -11,13 +11,13 @@ permalink: /fr/team/
   *PR* · *Compétences : méta-linguistique et en théorie linguistique* 
   
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Doctorant en co-tutelle* · 
+  *Candidate à un doctorat* · 
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
   *IGE* · *Compétences : développement Web et gestion de base de données* 
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
-  *PR* · *Compétences : linguistique computationnelle et sémantique formelle* 
+  *MCF HDR* · *Compétences : linguistique computationnelle et sémantique formelle* 
 
 - **[Jan GOES](URL_PERSO)** — Université d’Artois (France)  
   *PR* · *Compétences : adjectif et constructions adjectivales* 
@@ -26,7 +26,7 @@ permalink: /fr/team/
   *MCF* · *Compétences : phraséologie et linguistique de corpus* 
 
 - **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
-  *Post-doctorant* · *Compétences : analyse textuelle outillée et enchaînement prédicatif* 
+  *Post-doctorante* · *Compétences : analyse textuelle outillée et enchaînement prédicatif* 
 
 - **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
   *PR* · *Compétences : analyse du discours numérique, textométrie* 
@@ -40,7 +40,7 @@ permalink: /fr/team/
 
 **Équipe tunisienne**  
 - **[Rania ALOUI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorant en co-direction* 
+  *Doctorante* 
 
 - **[Thouraya BEN AMOR](URL_PERSO)** — Université de la Manouba (Tunisie)  
   *MCF HDR* · *Compétences : phraséologie et défigement*  
@@ -61,7 +61,7 @@ permalink: /fr/team/
   *Post-doctorant* · *Compétences : méta-terminologie et linguistique arabe*  
 
 - **[Safa KRIFI](URL_PERSO)** — Université de Gafsa (Tunisie)  
-  *Doctorant*
+  *Doctorante*
 
 - **[Dhouha LAJMI](URL_PERSO)** — Université de Sfax (Tunisie)  
   *MCF* · *Compétences : constructions verbales, actualisation* 
@@ -79,7 +79,7 @@ permalink: /fr/team/
   *MCF* · *Compétences : gestion d'entreprise* 
 
 - **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *Doctorant*
+  *Doctorante*
 
 - **[Anissa ZRIGUE](URL_PERSO)** — Université de Kairouan (Tunisie)  
   *MCF HDR* · *Compétences : didactique* 
