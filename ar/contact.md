@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "اتصل بنا"
+title: "الرئيسية"
 lang: ar
 dir: rtl
-permalink: /ar/contact/
-key: contact
+permalink: /ar/
+key: home
 ---
