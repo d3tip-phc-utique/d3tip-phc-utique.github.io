@@ -46,7 +46,7 @@ permalink: /fr/team/
   *MCF HDR* · *Compétences : phraséologie et défigement*  
 
 - **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *PR* · *Compétences : sciences de gestion, management public* 
+  *PR* · *Compétences : sciences de gestion et management public* 
 
 - **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
   *MCF* · *Compétences : modalité* 
@@ -76,7 +76,7 @@ permalink: /fr/team/
   *MCF HDR* · *Compétences : adverbe et constructions adverbiales* 
 
 - **[Dorra TALBI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF* · *Compétences : gestion d'entreprise* 
+  *MCF* · *Compétences : sciences de gestion et finances d'entreprise* 
 
 - **[Nour El Houda YEFERNI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
   *Doctorante*
