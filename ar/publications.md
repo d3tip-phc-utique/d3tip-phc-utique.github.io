@@ -1,8 +1,8 @@
 ---
-layout: default
-title: "المنشورات"
-lang: ar
-dir: rtl
+layout : default
+title : "المنشورات"
+lang : ar
+dir : rtl
 permalink : /ar/publications/
-key: publications
+key : publications
 ---
