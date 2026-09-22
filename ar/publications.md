@@ -3,6 +3,6 @@ layout: default
 title: "المنشورات"
 lang: ar
 dir: rtl
-permalink: /ar/publications/
+permalink: /ar/team/
 key: publications
 ---
