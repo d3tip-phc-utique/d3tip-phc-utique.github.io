@@ -28,7 +28,7 @@
   </div>
 
   <nav class="main-menu container" aria-label="{{ t.main_menu | default: 'Menu' }}">
-    {%- for k in site.nav_items -%}
+    {%- for k in site.nav_order -%}
     {%- assign nav_items = site.nav_order -%}
 {%- if lang == 'ar' -%}
   {%- assign nav_items = site.nav_order | reverse -%}
