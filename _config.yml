@@ -18,6 +18,10 @@ languages:
   - code: en
     label: EN
     name: "English"
+  - code: ar
+    label: AR
+    name: "Arabe" 
+    
 
 # Ordre du menu principal, exprimé en CLES de page (page.key) et non en
 # chemins de fichiers : le meme ordre sert donc pour toutes les langues.
