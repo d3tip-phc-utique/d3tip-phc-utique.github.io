@@ -3,8 +3,8 @@ layout: page
 title: "Activités"
 lang: fr
 dir: ltr
-key: activities
-permalink: /fr/activities/
+key: events
+permalink: /fr/events/
 ---
 ## 2026
 
