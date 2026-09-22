@@ -67,7 +67,7 @@ permalink: /fr/team/
   *MCF* · *Compétences : constructions verbales, actualisation* 
 
 - **[Soumaya MEJRI](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *MCF, coordinatrice* · *Compétences : analyses financières, phraséologie outillée* 
+  *MCF, coordinatrice* · *Compétences : sciences de gestion, discours spécialisé et phraséologie* 
 
 - **[Béchir OUERHANI](URL_PERSO)** — Université de Sousse (Tunisie)  
   *MCF* · *Compétences : phraséologie pragmatique, linguistique arabe* 
