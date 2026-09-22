@@ -27,19 +27,20 @@
     </div>
   </div>
 
-  <nav class="main-menu container" aria-label="{{ t.main_menu | default: 'Menu' }}">
-    {%- for k in site.nav_order -%}
-    {%- assign nav_items = site.nav_order -%}
+ {%- assign nav_items = site.nav_order -%}
 {%- if lang == 'ar' -%}
   {%- assign nav_items = site.nav_order | reverse -%}
 {%- endif -%}
-      {%- assign my_page = site.pages | where: 'lang', lang | where: 'key', k | first -%}
-      {%- if my_page and my_page.title -%}
-        <a class="menu-link" href="{{ my_page.url | relative_url }}"
-           {% if page.url == my_page.url %}aria-current="page"{% endif %}>
-          {{ my_page.title | escape }}
-        </a>
-      {%- endif -%}
-    {%- endfor -%}
-  </nav>
+
+<nav class="main-menu container" aria-label="{{ t.main_menu | default: 'Menu' }}">
+  {%- for k in nav_items -%}
+    {%- assign my_page = site.pages | where: 'lang', lang | where: 'key', k | first -%}
+    {%- if my_page and my_page.title -%}
+      <a class="menu-link" href="{{ my_page.url | relative_url }}"
+         {% if page.url == my_page.url %}aria-current="page"{% endif %}>
+        {{ my_page.title | escape }}
+      </a>
+    {%- endif -%}
+  {%- endfor -%}
+</nav>
 </header>
