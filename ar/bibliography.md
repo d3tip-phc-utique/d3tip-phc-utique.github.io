@@ -3,5 +3,6 @@ layout: default
 title: "المراجع"
 lang: ar
 dir: rtl
-key: Bibliographie
+permalink: /ar/team/
+key: bibliography
 ---
