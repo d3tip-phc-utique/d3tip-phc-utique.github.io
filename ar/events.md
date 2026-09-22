@@ -1,6 +1,6 @@
 ---
 layout: default
-title:"الأنشطة"
+title: "الأنشطة"
 lang: ar
 dir: rtl
 permalink: /ar/events/
