@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Événements"
+title: "Activités"
 lang: fr
 dir: ltr
-key: events
-permalink: /fr/events/
+key: activities
+permalink: /fr/activities/
 ---
 ## 2026
 
