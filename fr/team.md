@@ -11,7 +11,7 @@ permalink: /fr/team/
   *PR* · *Compétences : méta-linguistique et en théorie linguistique* 
   
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Candidate à un doctorat* · 
+  *Candidate à un doctorat*
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
   *IGE* · *Compétences : développement Web et gestion de base de données* 
@@ -46,13 +46,13 @@ permalink: /fr/team/
   *MCF HDR* · *Compétences : phraséologie et défigement*  
 
 - **[Anissa BEN HASSINE](URL_PERSO)** — ESSECT, Université de Tunis (Tunisie)  
-  *PR* · *Compétences : sciences de gestion et engagements professionnels et sociétaux* 
+  *PR* · *Compétences : sciences de gestion, management public* 
 
 - **[Monia BOUALI](URL_PERSO)** — Université de Gafsa (Tunisie)  
   *MCF* · *Compétences : modalité* 
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Doctorant en co-tutelle* 
+  *Candidate à un doctorat*
 
 - **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Tunisie, Espagne)    
   *Doctorant*
