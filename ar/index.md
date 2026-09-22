@@ -3,7 +3,8 @@ layout: default
 title: "الرئيسية"
 lang: ar
 dir: rtl
-permalink: /ar/
+permalink: /ar/team/
+key: index
 ---
 
 مرحبا بكم
