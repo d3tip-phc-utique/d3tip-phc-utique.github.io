@@ -49,3 +49,9 @@ defaults:
       lang: en
       dir: ltr
       layout: page
+  - scope:
+      path: "ar"
+    values:
+      lang: ar
+      dir: ltr
+      layout: page
