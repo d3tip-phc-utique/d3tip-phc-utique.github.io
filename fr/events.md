@@ -21,7 +21,7 @@ permalink: /fr/events/
 
 ### Doctoriales PHC Utique
 - Présentation de la thèse **Les discours des organisations internationales sur le développement durable en Tunisie : approche linguistique informatique** · 10/06/2026 · *Rania Aloui*
-- Présentation de la thèse **La néologie polylexicale: (in)variance formelle et prédicative dans le discours du développent durable.** · 10/06/2026 · *Intissar Boughalmi*
+- Présentation de la thèse **La néologie polylexicale: (in)variance formelle et prédicative dans le discours du développement durable.** · 10/06/2026 · *Intissar Boughalmi*
 
 ### Journées d'études
 - **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (09/06/2026) · 720, ODG, Campus des Grands Moulins, Université Paris Cité, Paris, FRANCE · [Site de la JE](https://dico-et-d3.sciencesconf.org) · [Affiche](/assets/logos/JE_DICO-DISCOURS-DD.pdf)
