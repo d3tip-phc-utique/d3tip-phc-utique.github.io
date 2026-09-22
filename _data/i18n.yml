@@ -13,3 +13,10 @@ en:
   main_menu: "Main menu"
   lang_label: "Language selection"
   skip_to_content: "Skip to content"
+ar:
+  site_description: "الموقع الرسمي لمشروع D3TIP (PHC Utique 2026)"
+  contact: "اتصل بنا"
+  main_menu: "القائمة الرئيسية"
+  lang_label: "اختيار اللغة"
+  skip_to_content: "الانتقال إلى المحتوى"
+
