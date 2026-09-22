@@ -21,11 +21,11 @@ lient les deux versions au lieu de les traiter comme des doublons. {%- endcommen
 {%- endif %}
 <style>
   html[dir="rtl"] nav,
-  html[dir="rtl"] .site-nav,
-  html[dir="rtl"] .nav,
-  html[dir="rtl"] header ul {
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    direction: rtl;
+  html[dir="rtl"] header,
+  html[dir="rtl"] .site-header,
+  html[dir="rtl"] ul {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: flex-end !important;
   }
 </style>
