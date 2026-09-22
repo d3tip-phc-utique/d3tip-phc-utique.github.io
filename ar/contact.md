@@ -3,6 +3,6 @@ layout: default
 title: "اتصل بنا"
 lang: ar
 dir: rtl
-permalink : /ar/team/
+permalink: /ar/contact/
 key: contact
 ---
