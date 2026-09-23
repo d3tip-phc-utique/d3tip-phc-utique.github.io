@@ -1,17 +1,3 @@
-{%- comment -%}
-  Menu principal.
-  Construit a partir de site.nav_order (des CLES) et non plus de
-  site.header_pages (des chemins "fr/..."), qui laissait le menu anglais vide.
-{%- endcomment -%}
-{%- assign lang = page.lang | default: site.default_lang | default: 'fr' -%}
-{%- assign t = site.data.i18n[lang] -%}
-
-{%- assign home_page = site.pages | where: 'lang', lang | where: 'key', 'home' | first -%}
-{%- capture fallback_home -%}/{{ lang }}/{%- endcapture -%}
-{%- assign home_url = home_page.url | default: fallback_home -%}
-
-{%- assign contact_page = site.pages | where: 'lang', lang | where: 'key', 'contact' | first -%}
-
 <header class="topbar">
   <div class="container navwrap">
     <a class="brand" href="{{ home_url | relative_url }}">{{ site.title }}</a>
@@ -36,11 +22,87 @@
   {%- for k in nav_items -%}
     {%- assign my_page = site.pages | where: 'lang', lang | where: 'key', k | first -%}
     {%- if my_page and my_page.title -%}
+      {%- assign subs = site.data.submenus[k] -%}
+      {%- if subs and subs.size > 0 -%}
+      {%- comment -%} Rubrique avec sous-rubriques : lien + bouton deroulant {%- endcomment -%}
+      <div class="menu-item has-sub{% if page.url == my_page.url or page.parent == k %} is-current{% endif %}">
+        <a class="menu-link" href="{{ my_page.url | relative_url }}"
+           {% if page.url == my_page.url %}aria-current="page"{% endif %}>
+          {{ my_page.title | escape }}
+        </a>
+        <button type="button" class="submenu-toggle"
+                aria-expanded="false" aria-controls="submenu-{{ k }}"
+                aria-label="{{ t.submenu_toggle | default: 'Submenu' }} : {{ my_page.title | escape }}">
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="submenu" id="submenu-{{ k }}">
+          {%- for s in subs -%}
+            {%- if s.key -%}
+              {%- assign s_page = site.pages | where: 'lang', lang | where: 'key', s.key | first -%}
+              {%- if s_page %}
+          <a class="submenu-link" href="{{ s_page.url | relative_url }}"
+             {% if page.url == s_page.url %}aria-current="page"{% endif %}>{{ s.label[lang] | default: s_page.title | escape }}</a>
+              {%- endif -%}
+            {%- elsif s.anchor and s.label[lang] %}
+          <a class="submenu-link" href="{{ my_page.url | relative_url }}#{{ s.anchor }}">{{ s.label[lang] | escape }}</a>
+            {%- endif -%}
+          {%- endfor %}
+        </div>
+      </div>
+      {%- else %}
       <a class="menu-link" href="{{ my_page.url | relative_url }}"
          {% if page.url == my_page.url %}aria-current="page"{% endif %}>
         {{ my_page.title | escape }}
       </a>
+      {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 </nav>
 </header>
+
+<script>
+  /* Sous-menus : ouverture au clic (tactile + clavier), fermeture au clic
+     exterieur ou avec Echap. Le survol a la souris est gere en CSS. */
+  (function () {
+    var items = document.querySelectorAll('.menu-item.has-sub');
+
+    function closeAll(except) {
+      items.forEach(function (it) {
+        if (it === except) return;
+        it.classList.remove('is-open');
+        it.querySelector('.submenu-toggle').setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    items.forEach(function (it) {
+      var btn = it.querySelector('.submenu-toggle');
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var open = !it.classList.contains('is-open');
+        closeAll(it);
+        it.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      it.querySelectorAll('.submenu-link').forEach(function (a) {
+        a.addEventListener('click', function () { closeAll(); });
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.menu-item.has-sub')) closeAll();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      var open = document.querySelector('.menu-item.is-open');
+      if (open) { closeAll(); open.querySelector('.submenu-toggle').focus(); }
+    });
+
+    /* Hauteur de l'en-tete fixe, pour que les ancres ne passent pas dessous */
+    var bar = document.querySelector('.topbar');
+    function setBarHeight() {
+      if (bar) document.documentElement.style.setProperty('--topbar-h', bar.offsetHeight + 'px');
+    }
+    setBarHeight();
+    window.addEventListener('resize', setBarHeight);
+  })();
+</script>
