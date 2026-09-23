@@ -294,7 +294,7 @@ permalink: /en/team/
               <span class="org-badge badge-doc">Postdoc</span>
               <div class="org-name">Imen MIZOURI</div>
               <div class="org-institution">Paris Cité University</div>
-              <div class="org-skills">Tool-assisted text analysis</div>
+              <div class="org-skills">Phraseology & corpus linguistics</div>
             </div>
           </div>
 
