@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "organigramme"
+title: "Organigramme"
 lang: fr
 dir: ltr
 key: team_rubrique_1
