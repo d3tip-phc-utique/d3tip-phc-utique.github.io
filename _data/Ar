@@ -1,5 +1,0 @@
-cp -r fr ar
-git add ar
-git commit -m "Duplicate fr folder as ar"
-git push
-
