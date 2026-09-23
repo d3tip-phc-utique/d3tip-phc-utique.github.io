@@ -1,0 +1,7 @@
+team:
+  - key: team_rubrique_1
+  - key: team_rubrique_2
+
+publications:
+  - key: publications_rubrique_1
+  - key: publications_rubrique_2
