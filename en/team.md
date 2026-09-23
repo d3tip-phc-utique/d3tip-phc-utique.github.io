@@ -6,14 +6,7 @@ dir: ltr
 key: team
 permalink: /en/team/
 ---
----
-layout: page
-title: "Team"
-lang: en
-dir: ltr
-key: team
-permalink: /en/team/
----
+
 **French team**
 
 - **[Valentina BISCONTI](https://cercll.u-picardie.fr/valentina-bisconti)** — Université de Picardie Jules Verne (France)  
