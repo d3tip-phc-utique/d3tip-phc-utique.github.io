@@ -489,11 +489,6 @@ permalink: /fr/team/
     </div>
   </div>
 
-</div>
-      <span class="role-badge">MCF HDR</span>
-      <h3>Anissa ZRIGUE</h3>
-      <div class="institution">Université de Kairouan (Tunisie)</div>
-      <div class="skills"><strong>Compétences :</strong> didactique</div>
-    </div>
+
   </div>
 </div>
