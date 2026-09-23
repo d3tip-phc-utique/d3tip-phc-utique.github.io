@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Organisation chart"
+title: "Organisation Chart"
 lang: en
 dir: ltr
 key: team_rubrique_1
