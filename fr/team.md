@@ -294,7 +294,7 @@ permalink: /fr/team/
               <span class="org-badge badge-doc">Post-doctorante</span>
               <div class="org-name">Imen MIZOURI</div>
               <div class="org-institution">Université Paris Cité</div>
-              <div class="org-skills">Phraséologie, Linguistique outillée, TAL</div>
+              <div class="org-skills">Phraséologie & linguistique de corpus</div>
             </div>
           </div>
 
