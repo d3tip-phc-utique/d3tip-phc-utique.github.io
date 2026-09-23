@@ -3,7 +3,7 @@ layout: page
 title: "organigramme"
 lang: fr
 dir: ltr
-key: team_organigramme
+key: team_rubrique_1
 parent: team
 permalink: /fr/team/organigramme/
 ---
