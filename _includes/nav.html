@@ -1,3 +1,17 @@
+{%- comment -%}
+  Menu principal.
+  Construit a partir de site.nav_order (des CLES) et non plus de
+  site.header_pages (des chemins "fr/..."), qui laissait le menu anglais vide.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.default_lang | default: 'fr' -%}
+{%- assign t = site.data.i18n[lang] -%}
+
+{%- assign home_page = site.pages | where: 'lang', lang | where: 'key', 'home' | first -%}
+{%- capture fallback_home -%}/{{ lang }}/{%- endcapture -%}
+{%- assign home_url = home_page.url | default: fallback_home -%}
+
+{%- assign contact_page = site.pages | where: 'lang', lang | where: 'key', 'contact' | first -%}
+
 <header class="topbar">
   <div class="container navwrap">
     <a class="brand" href="{{ home_url | relative_url }}">{{ site.title }}</a>
