@@ -487,7 +487,7 @@ permalink: /fr/team/
 
       </div>
     </div>
-  </div>
+ 
 
 
   </div>
