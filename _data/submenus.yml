@@ -5,3 +5,9 @@ team:
 publications:
   - key: publications_rubrique_1
   - key: publications_rubrique_2
+
+d3ia:
+  - key: d3ia_appel
+  - key: d3ia_programme
+  - key: d3ia_inscription
+  - key: d3ia_infos

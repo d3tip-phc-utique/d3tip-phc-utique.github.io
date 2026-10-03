@@ -1,0 +1,12 @@
+{%- assign lang = page.lang | default: site.default_lang -%}
+{%- assign t = site.data.d3ia.i18n[lang] -%}
+<div class="d3ia-sous-menu" role="navigation" aria-label="{{ t.sous_menu }}">
+  <ul class="d3ia-sous-menu__liste">
+    {%- for cle in site.data.d3ia.menu %}
+      {%- assign p = site.pages | where: 'lang', lang | where: 'key', cle | first %}
+      {%- if p %}
+    <li><a class="d3ia-sous-menu__lien" href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ p.d3ia_label | default: p.title }}</a></li>
+      {%- endif %}
+    {%- endfor %}
+  </ul>
+</div>

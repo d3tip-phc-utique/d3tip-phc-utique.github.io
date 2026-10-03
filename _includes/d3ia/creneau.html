@@ -1,0 +1,32 @@
+{%- assign c = include.creneau -%}
+{%- if c.pause -%}
+<li class="d3ia-creneau d3ia-creneau--pause">
+  <span class="d3ia-creneau__heure">{{ c.heure }}</span>
+  <span>{{ t.pauses[c.pause] }}</span>
+</li>
+{%- else -%}
+<li class="d3ia-creneau{% if c.pleniere %} d3ia-creneau--pleniere{% endif %}">
+  <span class="d3ia-creneau__heure">{{ c.heure }}</span>
+  <div>
+    {%- if c.ouverture %}
+    <h3 class="d3ia-creneau__titre">{{ t.ouverture_journees }}</h3>
+    {%- else %}
+    <h3 class="d3ia-creneau__titre">
+      {%- if c.pleniere %}<span class="d3ia-badge d3ia-badge--pleniere">{{ t.pleniere }}</span>{% endif -%}
+      {%- if c.atelier %}<span class="d3ia-badge d3ia-badge--atelier">{{ t.atelier }} {{ c.atelier }}</span>{% endif -%}
+      <span dir="auto">{{ c.titre }}</span>
+    </h3>
+    {%- endif %}
+    {%- if c.auteur %}
+    <p class="d3ia-creneau__auteur" dir="auto">{{ c.auteur }}</p>
+    {%- endif %}
+    {%- if c.officiels %}
+    <ul class="d3ia-officiels">
+      {%- for o in c.officiels %}
+      <li>{{ o[lang] | default: o.fr }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</li>
+{%- endif -%}

@@ -1,0 +1,508 @@
+/* ==========================================================================
+   Pages des Journées D3IA
+   Toutes les règles sont limitées au bloc .d3ia : elles n'ont aucun effet
+   sur le reste du site.
+
+   1. Variables          5. Sections et décors     9. Programme
+   2. Base               6. Accueil (en-tête)      10. Inscription
+   3. Boutons            7. Logos                  11. Langue arabe
+   4. Sous-menu          8. Textes                 12. Petits écrans
+   ========================================================================== */
+
+/* 1. Variables ------------------------------------------------------------ */
+.d3ia {
+  --d3ia-bleu: #0b4ea2;
+  --d3ia-bleu-fonce: #083a7a;
+  --d3ia-creme: #f7f5f0;
+  --d3ia-sauge: #cfdfd2;
+  --d3ia-sauge-fonce: #7fa38b;
+  --d3ia-texte: #1f2d44;
+  --d3ia-gris: #56637a;
+  --d3ia-filet: #dfe6df;
+  --d3ia-ombre: 0 4px 24px rgba(31, 45, 68, 0.08);
+  --d3ia-police-titre: "Archivo Black", "Arial Black", "Noto Sans Arabic", sans-serif;
+  --d3ia-police: "Open Sans", "Noto Sans Arabic", "Segoe UI", Arial, sans-serif;
+}
+
+/* 2. Base ----------------------------------------------------------------- */
+.d3ia {
+  color: var(--d3ia-texte);
+  font-family: var(--d3ia-police);
+  line-height: 1.7;
+}
+
+.d3ia a {
+  color: var(--d3ia-bleu);
+  text-decoration-color: var(--d3ia-sauge-fonce);
+  text-underline-offset: 3px;
+}
+
+.d3ia a:focus-visible,
+.d3ia button:focus-visible {
+  outline: 3px solid var(--d3ia-sauge-fonce);
+  outline-offset: 3px;
+}
+
+.d3ia img {
+  max-width: 100%;
+}
+
+.d3ia sub {
+  font-size: 0.55em;
+  vertical-align: -0.15em;
+}
+
+/* 3. Boutons -------------------------------------------------------------- */
+.d3ia .d3ia-bouton {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border: 2px solid var(--d3ia-bleu);
+  border-radius: 999px;
+  background: var(--d3ia-bleu);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.d3ia .d3ia-bouton:hover {
+  background: var(--d3ia-bleu-fonce);
+  border-color: var(--d3ia-bleu-fonce);
+  color: #fff;
+}
+
+.d3ia .d3ia-bouton--contour {
+  background: transparent;
+  color: var(--d3ia-bleu);
+}
+
+.d3ia .d3ia-bouton--contour:hover {
+  background: var(--d3ia-bleu);
+}
+
+/* 4. Sous-menu ------------------------------------------------------------ */
+.d3ia-sous-menu {
+  margin-bottom: 1.5rem;
+  border-radius: 999px;
+  background: var(--d3ia-bleu);
+}
+
+.d3ia-sous-menu__liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1.5rem;
+  margin: 0;
+  padding: 0.6rem 1.25rem;
+  list-style: none;
+}
+
+.d3ia .d3ia-sous-menu__lien {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.d3ia .d3ia-sous-menu__lien:hover,
+.d3ia .d3ia-sous-menu__lien[aria-current="page"] {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: var(--d3ia-sauge);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* 5. Sections et décors --------------------------------------------------- */
+.d3ia-section {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  background: var(--d3ia-creme);
+}
+
+.d3ia-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.d3ia-section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.d3ia-decor--olivier-droite::before,
+.d3ia-decor--olivier-gauche::before {
+  top: 1.5rem;
+  width: 11rem;
+  height: 15.3rem;
+  background-image: url("decor/olivier.png");
+  opacity: 0.7;
+}
+
+.d3ia-decor--globe-droite::before,
+.d3ia-decor--globe-gauche::before {
+  bottom: -4rem;
+  width: 20rem;
+  height: 17rem;
+  background-image: url("decor/globe.png");
+}
+
+.d3ia-decor--olivier-droite::before { right: -2.5rem; }
+.d3ia-decor--olivier-gauche::before { left: -2.5rem; }
+.d3ia-decor--globe-droite::before { right: -7rem; }
+.d3ia-decor--globe-gauche::before { left: -7rem; }
+
+.d3ia .d3ia-titre {
+  margin: 0 0 1.5rem;
+  color: var(--d3ia-bleu);
+  font-family: var(--d3ia-police-titre);
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.d3ia .d3ia-titre::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 4px;
+  margin-top: 0.75rem;
+  border-radius: 2px;
+  background: var(--d3ia-sauge-fonce);
+}
+
+/* 6. Accueil (en-tête) ---------------------------------------------------- */
+.d3ia-entete {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  padding: 3.5rem 1.5rem;
+  border-radius: 12px;
+  background: var(--d3ia-creme);
+  text-align: center;
+}
+
+.d3ia-entete::before {
+  content: "";
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: 24rem;
+  height: 27rem;
+  transform: translate(-50%, -50%);
+  background: url("decor/tete-ia.png") no-repeat center / contain;
+  pointer-events: none;
+}
+
+.d3ia-entete > * {
+  position: relative;
+}
+
+.d3ia-entete__edition {
+  margin: 0 0 1.5rem;
+  color: var(--d3ia-bleu);
+  font-size: clamp(1.1rem, 2.4vw, 1.45rem);
+  font-weight: 600;
+}
+
+.d3ia .d3ia-entete__titre {
+  max-width: 20ch;
+  margin: 0 auto 1.75rem;
+  color: var(--d3ia-bleu);
+  font-family: var(--d3ia-police-titre);
+  font-size: clamp(1.7rem, 5vw, 3.1rem);
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.d3ia-entete__date {
+  margin: 0 0 1rem;
+  color: var(--d3ia-bleu);
+  font-size: clamp(1.5rem, 3.6vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.d3ia-entete__lieu {
+  margin: 0 0 2rem;
+  color: var(--d3ia-bleu);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.d3ia-entete__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* 7. Logos ---------------------------------------------------------------- */
+.d3ia-logos {
+  margin-bottom: 1.5rem;
+  padding: 2rem 1rem;
+  border-top: 4px solid var(--d3ia-bleu);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: var(--d3ia-ombre);
+}
+
+.d3ia-logos__titre {
+  margin: 0 0 1rem;
+  color: var(--d3ia-gris);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.d3ia-logos__liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem 2rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.d3ia-logos__liste:last-child {
+  margin-bottom: 0;
+}
+
+.d3ia-logos__liste img {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 3rem;
+}
+
+.d3ia-logos__liste--principal img {
+  height: 3.75rem;
+}
+
+/* 8. Textes (pages rédigées en Markdown) ---------------------------------- */
+.d3ia-texte > p,
+.d3ia-texte > ul {
+  max-width: 68ch;
+}
+
+.d3ia-texte h2 {
+  margin: 2rem 0 0.5rem;
+  color: var(--d3ia-bleu);
+  font-size: 1.15rem;
+}
+
+.d3ia-texte h2:first-child {
+  margin-top: 0;
+}
+
+/* 9. Programme ------------------------------------------------------------ */
+.d3ia-onglets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.d3ia-onglets__bouton {
+  padding: 0.55rem 1.25rem;
+  border: 2px solid var(--d3ia-bleu);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--d3ia-bleu);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.d3ia-onglets__bouton[aria-selected="true"] {
+  background: var(--d3ia-bleu);
+  color: #fff;
+}
+
+.d3ia-seance + .d3ia-seance {
+  margin-top: 2rem;
+}
+
+.d3ia-seance__titre {
+  margin: 0 0 0.4rem;
+  color: var(--d3ia-bleu);
+  font-weight: 700;
+}
+
+.d3ia-creneaux {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d3ia-creneau {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 1.25rem;
+  padding: 0.9rem;
+  border-bottom: 1px solid var(--d3ia-filet);
+}
+
+.d3ia-creneau__heure {
+  color: var(--d3ia-bleu);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.d3ia .d3ia-creneau__titre {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.d3ia-creneau__auteur {
+  margin: 0;
+  color: var(--d3ia-gris);
+  font-size: 0.95rem;
+}
+
+.d3ia-creneau--pause {
+  margin: 0.4rem 0;
+  border-bottom: 0;
+  border-radius: 6px;
+  background: var(--d3ia-sauge);
+  font-weight: 600;
+}
+
+.d3ia-creneau--pleniere {
+  margin: 0.4rem 0;
+  border-inline-start: 4px solid var(--d3ia-bleu);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.d3ia-badge {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  margin-inline-end: 0.5rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: 0.15em;
+}
+
+.d3ia-badge--pleniere {
+  background: var(--d3ia-bleu);
+  color: #fff;
+}
+
+.d3ia-badge--atelier {
+  background: var(--d3ia-sauge);
+  color: var(--d3ia-texte);
+}
+
+.d3ia-officiels {
+  margin: 0.4rem 0 0;
+  padding-inline-start: 1.1rem;
+  color: var(--d3ia-gris);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.d3ia-telechargement {
+  margin: 2rem 0 0;
+}
+
+/* 10. Inscription --------------------------------------------------------- */
+.d3ia-formulaire {
+  margin: 1.5rem 0 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: var(--d3ia-ombre);
+}
+
+.d3ia-formulaire iframe {
+  display: block;
+  width: 100%;
+  height: 800px;
+  border: 0;
+  border-radius: 6px;
+}
+
+/* 11. Langue arabe -------------------------------------------------------- */
+.d3ia[dir="rtl"] .d3ia-entete__titre {
+  text-transform: none;
+  line-height: 1.35;
+}
+
+.d3ia[dir="rtl"] .d3ia-decor--olivier-droite::before { right: auto; left: -2.5rem; }
+.d3ia[dir="rtl"] .d3ia-decor--olivier-gauche::before { left: auto; right: -2.5rem; }
+.d3ia[dir="rtl"] .d3ia-decor--globe-droite::before { right: auto; left: -7rem; }
+.d3ia[dir="rtl"] .d3ia-decor--globe-gauche::before { left: auto; right: -7rem; }
+
+/* Le fichier _includes/head.html du site met toutes les listes en ligne
+   sur les pages en html[dir="rtl"]. Si le site passe un jour en RTL, ces
+   règles rétablissent l'affichage normal des listes D3IA. */
+html[dir="rtl"] .d3ia ul,
+html[dir="rtl"] .d3ia ol {
+  display: block !important;
+  flex-direction: column !important;
+}
+
+html[dir="rtl"] .d3ia .d3ia-sous-menu__liste,
+html[dir="rtl"] .d3ia .d3ia-logos__liste {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+/* 12. Petits écrans ------------------------------------------------------- */
+@media (max-width: 36rem) {
+  .d3ia-sous-menu {
+    border-radius: 12px;
+  }
+
+  .d3ia-section {
+    padding: 2rem 1.25rem;
+  }
+
+  .d3ia-entete::before {
+    width: 16rem;
+    height: 18rem;
+  }
+
+  .d3ia-section::before {
+    opacity: 0.45;
+    transform: scale(0.6);
+  }
+
+  .d3ia-logos__liste img {
+    height: 2.4rem;
+  }
+
+  .d3ia-logos__liste--principal img {
+    height: 3rem;
+  }
+
+  .d3ia-creneau {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .d3ia-formulaire iframe {
+    height: 950px;
+  }
+}

@@ -1,0 +1,37 @@
+---
+layout: d3ia
+title: "Journées D3IA"
+d3ia_label: "Présentation"
+lang: fr
+dir: ltr
+key: d3ia
+permalink: /fr/d3ia/
+---
+
+{%- assign t = site.data.d3ia.i18n[page.lang] -%}
+
+<div class="d3ia-entete">
+  <p class="d3ia-entete__edition">9<sup>es</sup> Journées Mondiales des Dictionnaires</p>
+  <h1 class="d3ia-entete__titre">Développement durable, dictionnaires &amp; intelligence artificielle (D<sub>3</sub>IA)</h1>
+  <p class="d3ia-entete__date">5 &amp; 6 novembre 2026</p>
+  <p class="d3ia-entete__lieu">
+      École Supérieure des Sciences Économiques et Commerciales de Tunis<br>
+      Université de Tunis
+  </p>
+  <div class="d3ia-entete__actions">
+    <a class="d3ia-bouton" href="{% include d3ia/lien.html key='d3ia_inscription' %}">{{ t.s_inscrire }}</a>
+    <a class="d3ia-bouton d3ia-bouton--contour" href="{% include d3ia/lien.html key='d3ia_programme' %}">{{ t.voir_programme }}</a>
+  </div>
+</div>
+
+{% include d3ia/logos.html %}
+
+<section class="d3ia-section d3ia-decor--olivier-droite">
+  <h2 class="d3ia-titre">Présentation</h2>
+  <div class="d3ia-texte">
+    <p>Les 9<sup>es</sup> Journées Mondiales des Dictionnaires sont consacrées au thème « Développement durable, dictionnaires et intelligence artificielle » (D<sub>3</sub>IA). Elles se tiennent les 5 et 6 novembre 2026 à l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT), Université de Tunis.</p>
+    <p>Organisées dans le cadre du <a href="{% include d3ia/lien.html key='home' %}">projet franco-tunisien PHC Utique D<sub>3</sub>TIP</a>, « Discours du Développement Durable : Traitement Informatique et Phraséologique », ces journées réunissent des chercheuses et chercheurs de France, de Tunisie, d'Italie et des États-Unis autour de la description lexicographique et phraséologique du discours du développement durable et des apports de l'intelligence artificielle.</p>
+    <p>La première journée est consacrée aux communications. La seconde propose également deux ateliers de formation aux outils de traitement de corpus.</p>
+    <p>La participation est possible en présentiel ou à distance, sur inscription.</p>
+  </div>
+</section>

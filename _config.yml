@@ -29,6 +29,7 @@ nav_order:
   - home
   - team
   - events
+  - d3ia
   - publications
   - bibliography
   - partners
@@ -53,5 +54,5 @@ defaults:
       path: "ar"
     values:
       lang: ar
-      dir: ltr
+      dir: rtl
       layout: page

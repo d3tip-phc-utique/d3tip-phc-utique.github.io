@@ -1,0 +1,22 @@
+{%- assign lang = page.lang | default: site.default_lang -%}
+{%- assign t = site.data.d3ia.i18n[lang] -%}
+{%- assign dossier = '/assets/d3ia/logos/' | relative_url -%}
+<div class="d3ia-logos">
+  <p class="d3ia-logos__titre">{{ t.organisation }}</p>
+  <ul class="d3ia-logos__liste d3ia-logos__liste--principal">
+    <li><img src="{{ dossier }}essect.png" alt="ESSECT – École Supérieure des Sciences Économiques et Commerciales de Tunis"></li>
+    <li><img src="{{ dossier }}altae.png" alt="ALTAE – Langues et cultures connectées, Université Paris Cité"></li>
+    <li><img src="{{ dossier }}larime.png" alt="LARIME – Laboratoire de Recherche Interdisciplinaire sur les Mutations des Économies et des Entreprises"></li>
+  </ul>
+
+  <p class="d3ia-logos__titre">{{ t.partenaires }}</p>
+  <ul class="d3ia-logos__liste">
+    <li><img src="{{ dossier }}ministere-tunisie.png" alt="République tunisienne – Ministère de l'Enseignement Supérieur et de la Recherche Scientifique"></li>
+    <li><img src="{{ dossier }}ministere-france.png" alt="Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace"></li>
+    <li><img src="{{ dossier }}campus-france.png" alt="Campus France"></li>
+    <li><img src="{{ dossier }}universite-tunis.png" alt="Université de Tunis"></li>
+    <li><img src="{{ dossier }}paris-cite.png" alt="Université Paris Cité"></li>
+    <li><img src="{{ dossier }}manouba.png" alt="Université de la Manouba"></li>
+    <li><img src="{{ dossier }}bari.png" alt="Università degli Studi di Bari Aldo Moro"></li>
+  </ul>
+</div>

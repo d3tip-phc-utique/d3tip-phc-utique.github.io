@@ -1,7 +1,0 @@
-# Configuration du site (GitHub Pages construit le site automatiquement)
-title: "Journées D3IA"
-description: "9es Journées Mondiales des Dictionnaires : Développement durable, dictionnaires et intelligence artificielle. 5 et 6 novembre 2026, ESSECT, Université de Tunis."
-lang: fr
-
-exclude:
-  - README.md

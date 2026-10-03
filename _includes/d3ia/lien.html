@@ -1,0 +1,4 @@
+{%- comment -%} Adresse de la page D3IA de clé « key », dans la langue de la page en cours. {%- endcomment -%}
+{%- assign lien_lang = page.lang | default: site.default_lang -%}
+{%- assign lien_page = site.pages | where: 'lang', lien_lang | where: 'key', include.key | first -%}
+{{- lien_page.url | relative_url -}}

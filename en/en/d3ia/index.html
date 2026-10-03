@@ -1,0 +1,37 @@
+---
+layout: d3ia
+title: "D3IA Days"
+d3ia_label: "Overview"
+lang: en
+dir: ltr
+key: d3ia
+permalink: /en/d3ia/
+---
+
+{%- assign t = site.data.d3ia.i18n[page.lang] -%}
+
+<div class="d3ia-entete">
+  <p class="d3ia-entete__edition">9th World Dictionary Days</p>
+  <h1 class="d3ia-entete__titre">Sustainable development, dictionaries &amp; artificial intelligence (D<sub>3</sub>IA)</h1>
+  <p class="d3ia-entete__date">5 &amp; 6 November 2026</p>
+  <p class="d3ia-entete__lieu">
+      Higher School of Economic and Commercial Sciences of Tunis (ESSECT)<br>
+      University of Tunis
+  </p>
+  <div class="d3ia-entete__actions">
+    <a class="d3ia-bouton" href="{% include d3ia/lien.html key='d3ia_inscription' %}">{{ t.s_inscrire }}</a>
+    <a class="d3ia-bouton d3ia-bouton--contour" href="{% include d3ia/lien.html key='d3ia_programme' %}">{{ t.voir_programme }}</a>
+  </div>
+</div>
+
+{% include d3ia/logos.html %}
+
+<section class="d3ia-section d3ia-decor--olivier-droite">
+  <h2 class="d3ia-titre">Overview</h2>
+  <div class="d3ia-texte">
+    <p>The 9th World Dictionary Days are devoted to the theme “Sustainable development, dictionaries and artificial intelligence” (D<sub>3</sub>IA). They take place on 5 and 6 November 2026 at the Higher School of Economic and Commercial Sciences of Tunis (ESSECT), University of Tunis.</p>
+    <p>Organised as part of the <a href="{% include d3ia/lien.html key='home' %}">French-Tunisian PHC Utique project D<sub>3</sub>TIP</a>, “Discourse of Sustainable Development: Computational and Phraseological Processing”, the event brings together researchers from France, Tunisia, Italy and the United States to discuss the lexicographic and phraseological description of sustainable development discourse and the contribution of artificial intelligence.</p>
+    <p>The first day is devoted to papers. The second day also offers two training workshops on corpus processing tools.</p>
+    <p>Participation is possible on site or online, upon registration.</p>
+  </div>
+</section>
