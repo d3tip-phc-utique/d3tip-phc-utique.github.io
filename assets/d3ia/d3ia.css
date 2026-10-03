@@ -112,23 +112,47 @@
   text-underline-offset: 6px;
 }
 
-/* Rubrique avec sous-rubriques (Comités) : liste déroulante au survol
-   de la souris ou quand un lien reçoit le focus au clavier. */
+/* Rubrique avec sous-rubriques (Comités) : la flèche ouvre la liste
+   (souris, doigt ou clavier) ; sur ordinateur, le survol l'ouvre aussi. */
 .d3ia-sous-menu__item--deroulant {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
 }
 
-.d3ia-sous-menu__item--deroulant > .d3ia-sous-menu__lien::after {
-  content: " ▾";
-  font-size: 0.8em;
+.d3ia .d3ia-sous-menu__bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
 }
 
-.d3ia-sous-menu__sous {
+.d3ia .d3ia-sous-menu__bouton:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.d3ia-sous-menu__bouton svg {
+  transition: transform 150ms ease;
+}
+
+.d3ia-sous-menu__item--deroulant.is-open .d3ia-sous-menu__bouton svg {
+  transform: rotate(180deg);
+}
+
+.d3ia .d3ia-sous-menu__sous {
   display: none;
   position: absolute;
   top: 100%;
   inset-inline-start: -0.75rem;
-  z-index: 20;
+  z-index: 5; /* sous l'en-tête fixe du site (z-index 10), au-dessus du contenu */
   min-width: 13rem;
   margin: 0;
   padding: 0.5rem 0;
@@ -138,9 +162,15 @@
   list-style: none;
 }
 
-.d3ia-sous-menu__item--deroulant:hover > .d3ia-sous-menu__sous,
-.d3ia-sous-menu__item--deroulant:focus-within > .d3ia-sous-menu__sous {
+.d3ia .d3ia-sous-menu__item--deroulant.is-open > .d3ia-sous-menu__sous,
+.d3ia .d3ia-sous-menu__item--deroulant:focus-within > .d3ia-sous-menu__sous {
   display: block;
+}
+
+@media (hover: hover) {
+  .d3ia .d3ia-sous-menu__item--deroulant:hover > .d3ia-sous-menu__sous {
+    display: block;
+  }
 }
 
 /* Petite zone invisible pour que la liste ne se ferme pas entre le lien et elle */
@@ -535,7 +565,7 @@ html[dir="rtl"] .d3ia .d3ia-sous-menu__sous {
   display: none !important;
 }
 
-html[dir="rtl"] .d3ia .d3ia-sous-menu__item--deroulant:hover > .d3ia-sous-menu__sous,
+html[dir="rtl"] .d3ia .d3ia-sous-menu__item--deroulant.is-open > .d3ia-sous-menu__sous,
 html[dir="rtl"] .d3ia .d3ia-sous-menu__item--deroulant:focus-within > .d3ia-sous-menu__sous {
   display: block !important;
 }
@@ -573,6 +603,12 @@ html[dir="rtl"] .d3ia .d3ia-logos__liste {
 
   .d3ia-logos__liste--principal img {
     height: 3rem;
+  }
+
+  /* Sur téléphone, le texte justifié crée de grands blancs entre les mots */
+  .d3ia-texte > p,
+  .d3ia-texte > ul > li {
+    text-align: start;
   }
 
   .d3ia-creneau {

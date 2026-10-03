@@ -25,7 +25,7 @@ Les journées sont ouvertes en présentiel et à distance, sur [inscription]({% 
 
 ## Contact
 
-Organisation : Soumaya Mejri (Université de Tunis) et Lichao Zhu (Université Paris Cité)
+Organisation : Soumaya Mejri (Université de Tunis) et Lichao Zhu (Université Paris Cité)
 
-- partie tunisienne : [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)
-- partie française : [lichao.zhu@u-pariscite.fr](mailto:lichao.zhu@u-pariscite.fr)
+- partie tunisienne : [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)
+- partie française : [lichao.zhu@u-pariscite.fr](mailto:lichao.zhu@u-pariscite.fr)

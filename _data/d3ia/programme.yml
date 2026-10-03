@@ -12,22 +12,22 @@
         - heure: 9h–9h30
           ouverture: true
           officiels:
-            - fr: "Président de l'Université de Tunis : M. Slim Driss"
+            - fr: "Président de l'Université de Tunis : M. Slim Driss"
               en: "President of the University of Tunis: Slim Driss"
               ar: Slim Driss، رئيس جامعة تونس
-            - fr: "Président de l'Université de la Manouba : M. Ameur Cherif"
+            - fr: "Président de l'Université de la Manouba : M. Ameur Cherif"
               en: "President of the University of Manouba: Ameur Cherif"
               ar: Ameur Cherif، رئيس جامعة منوبة
-            - fr: "Directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT) : M. Mohamed Faker Klibi"
+            - fr: "Directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT) : M. Mohamed Faker Klibi"
               en: "Director of the Higher School of Economic and Commercial Sciences of Tunis (ESSECT): Mohamed Faker Klibi"
               ar: Mohamed Faker Klibi، مدير المدرسة العليا للعلوم الاقتصادية والتجارية بتونس
-            - fr: "Responsable des Journées Mondiales des Dictionnaires : Giovanni Dotoli"
+            - fr: "Responsable des Journées Mondiales des Dictionnaires : Giovanni Dotoli"
               en: "Head of Journées Mondiales des Dictionnaires: Giovanni Dotoli"
               ar: Giovanni Dotoli، المسؤول عن الأيام العالمية للمعاجم
-            - fr: "Directrice du laboratoire LARIME : Mme Anissa Ben Hassine"
+            - fr: "Directrice du laboratoire LARIME : Mme Anissa Ben Hassine"
               en: "Director of the LARIME laboratory: Anissa Ben Hassine"
               ar: Anissa Ben Hassine، مديرة مخبر LARIME
-            - fr: "Organisateurs des Journées D<sub>3</sub>IA : Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité)"
+            - fr: "Organisateurs des Journées D<sub>3</sub>IA : Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité)"
               en: "Organisers of the D<sub>3</sub>IA Days: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité)"
               ar: Soumaya Mejri (جامعة تونس) وLichao Zhu (جامعة باريس سيتي)، منظّما أيام D<sub>3</sub>IA
         - heure: 9h30–10h
@@ -41,13 +41,13 @@
           titre: Apports de l'IA en analyse linguistique du D<sub>3</sub> (Discours du Développement Durable). De la fine granularité sémantique et phraséologique
           auteur: Salah Mejri, Université Sorbonne Paris Nord
         - heure: 11h–11h30
-          titre: "Des données textuelles en corpus aux données structurées dans ARTES : traitement lexicographique des collocations du discours sur le développement durable"
+          titre: "Des données textuelles en corpus aux données structurées dans ARTES : traitement lexicographique des collocations du discours sur le développement durable"
           auteur: Mojca Pecman, Université Paris Cité
         - heure: 11h30–12h
           titre: Tourisme culturel et IA
           auteur: Thouraya Ben Amor, Université de la Manouba
         - heure: 12h–12h30
-          titre: "Comment publier une recherche qualitative en GRH : retour d'expérience"
+          titre: "Comment publier une recherche qualitative en GRH : retour d'expérience"
           auteur: Lamia Hechiche, Université de Tunis
         - heure: 12h30–14h
           pause: dejeuner
@@ -56,7 +56,7 @@
       genre: m
       creneaux:
         - heure: 14h–14h30
-          titre: La lexicométrie en sciences humaines et sociales. Pourquoi faire ?
+          titre: La lexicométrie en sciences humaines et sociales. Pourquoi faire ?
           auteur: Stéphane Patin, Université Paris Cité
         - heure: 14h30–15h
           titre: Développement Durable et IA
@@ -74,16 +74,16 @@
       genre: f
       creneaux:
         - heure: 16h15–16h45
-          titre: "Corpus du développement durable : ressources, représentativité et outils"
+          titre: "Corpus du développement durable : ressources, représentativité et outils"
           auteur: Lichao Zhu, Université Paris Cité
         - heure: 16h45–17h15
-          titre: Deixis de la durabilité dans son « enveloppement » souterrain
+          titre: Deixis de la durabilité dans son « enveloppement » souterrain
           auteur: Eric Turcat, Oklahoma State University
         - heure: 17h15–17h45
           titre: Pollution des plages et IA
           auteur: Nour El Houda Yeferni et Rania Aloui, Université de Tunis
         - heure: 17h45–18h15
-          titre: "Dictionnaire, discours génératif et développement durable : quand l'IA recompose la doxa"
+          titre: "Dictionnaire, discours génératif et développement durable : quand l'IA recompose la doxa"
           auteur: Maria Leo, chercheur libre
         - heure: 18h15–18h30
           pause: cloture_jour1
@@ -109,7 +109,7 @@
           titre: Il faut un nouveau dictionnaire du développement durable
           auteur: Celeste Boccuzzi, Université de Bari Aldo Moro
         - heure: 10h–10h30
-          titre: "Classes sémantiques : expérimentations par l'IA"
+          titre: "Classes sémantiques : expérimentations par l'IA"
           auteur: Imen Mizouri, Université Paris Cité
         - heure: 10h30–10h45
           pause: cafe

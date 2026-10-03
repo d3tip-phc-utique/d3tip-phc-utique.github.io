@@ -1,6 +1,7 @@
 # Libellés de l'interface des pages D3IA, par langue.
 fr:
   sous_menu: "Rubriques des Journées D3IA"
+  afficher_sous_menu: "Afficher les sous-rubriques"
   comite_scientifique: "Comité scientifique"
   comite_organisation: "Comité d'organisation"
   s_inscrire: "S'inscrire"
@@ -11,8 +12,8 @@ fr:
   telecharger_programme: "Télécharger le programme (PDF)"
   pleniere: "Conférence plénière"
   atelier: "Atelier de formation"
-  moderateur: "Modérateur :"
-  moderatrice: "Modératrice :"
+  moderateur: "Modérateur :"
+  moderatrice: "Modératrice :"
   ouverture: "Ouverture"
   ouverture_journees: "Ouverture des journées"
   pauses:
@@ -23,6 +24,7 @@ fr:
     cloture: "Clôture des Journées D<sub>3</sub>IA"
 en:
   sous_menu: "D3IA Days sections"
+  afficher_sous_menu: "Show sub-sections"
   comite_scientifique: "Scientific committee"
   comite_organisation: "Organising committee"
   s_inscrire: "Register"
@@ -45,6 +47,7 @@ en:
     cloture: "Closing of the D<sub>3</sub>IA Days"
 ar:
   sous_menu: "أقسام أيام D3IA"
+  afficher_sous_menu: "عرض الأقسام الفرعية"
   comite_scientifique: "اللجنة العلمية"
   comite_organisation: "اللجنة التنظيمية"
   s_inscrire: "التسجيل"

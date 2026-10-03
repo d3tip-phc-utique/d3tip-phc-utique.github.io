@@ -15,4 +15,4 @@ Merci de remplir le formulaire ci-dessous pour participer aux journées, en pré
   <iframe src="https://framaforms.org/inscription-journees-detudes-d3ia-1791021367" title="Formulaire d'inscription aux Journées D3IA" loading="lazy"></iframe>
 </div>
 
-Le formulaire ne s'affiche pas ? [Ouvrez-le dans un nouvel onglet](https://framaforms.org/inscription-journees-detudes-d3ia-1791021367){:target="_blank" rel="noopener"}.
+Le formulaire ne s'affiche pas ? [Ouvrez-le dans un nouvel onglet](https://framaforms.org/inscription-journees-detudes-d3ia-1791021367){:target="_blank" rel="noopener"}.

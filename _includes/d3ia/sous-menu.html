@@ -6,10 +6,14 @@
       {%- assign cle = entree.cle | default: entree %}
       {%- assign p = site.pages | where: 'lang', lang | where: 'key', cle | first %}
       {%- if p %}
+      {%- assign libelle = p.d3ia_label | default: p.title %}
     <li class="d3ia-sous-menu__item{% if entree.sous %} d3ia-sous-menu__item--deroulant{% endif %}">
-      <a class="d3ia-sous-menu__lien" href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ p.d3ia_label | default: p.title }}</a>
+      <a class="d3ia-sous-menu__lien" href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ libelle }}</a>
       {%- if entree.sous %}
-      <ul class="d3ia-sous-menu__sous">
+      <button type="button" class="d3ia-sous-menu__bouton" aria-expanded="false" aria-controls="d3ia-sous-{{ cle }}" aria-label="{{ t.afficher_sous_menu }} : {{ libelle }}">
+        <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="d3ia-sous-menu__sous" id="d3ia-sous-{{ cle }}">
         {%- for s in entree.sous %}
         <li><a href="{{ p.url | relative_url }}#{{ s.ancre }}">{{ t[s.libelle] }}</a></li>
         {%- endfor %}
