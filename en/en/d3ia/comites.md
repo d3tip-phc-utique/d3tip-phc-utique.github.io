@@ -12,13 +12,29 @@ decor: olivier-droite
 ## Scientific committee
 {: #comite-scientifique}
 
-- [First name Last name] (Institution, country)
-- [First name Last name] (Institution, country)
-- [First name Last name] (Institution, country)
+- Thouraya BEN AMOR, University of Manouba
+- Anissa BEN HASSINE, University of Tunis
+- Valentina BISCONTI, University of Picardie Jules Verne
+- Celeste BOCCUZZI, University of Bari Aldo Moro
+- Giovanni DOTOLI, University of Bari Aldo Moro
+- Jan GOES, University of Artois
+- Salah MEJRI, Sorbonne Paris Nord University
+- Soumaya MEJRI, ESSECT, University of Tunis
+- Luis MENESES-LERÍN, University of Artois
+- Imen MIZOURI, Université Paris Cité
+- Stéphane PATIN, Université Paris Cité
+- Mojca PECMAN, Université Paris Cité
+- Dorra TALBI, University of Tunis
+- Lichao ZHU, Université Paris Cité
 
 ## Organising committee
 {: #comite-organisation}
 
-- Soumaya Mejri (University of Tunis)
-- Lichao Zhu (Université Paris Cité)
-- [First name Last name] (Institution)
+- Rania ALOUI, ESSECT, University of Tunis
+- Amel BEJI, ESSECT, University of Tunis
+- Thouraya BEN AMOR, University of Manouba
+- Soumaya MEJRI, ESSECT, University of Tunis
+- Imen MIZOURI, Université Paris Cité
+- Sounayhawend MOALLA, University of Manouba
+- Nour El Houda YEFERNI, ESSECT, University of Tunis
+- Lichao ZHU, Université Paris Cité
