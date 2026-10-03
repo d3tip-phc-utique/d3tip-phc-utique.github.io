@@ -1,0 +1,40 @@
+---
+layout: default
+title: Programme
+---
+{% comment %}
+  Le contenu du programme se modifie dans _data/programme.yml.
+  Cette page ne fait que l'afficher.
+{% endcomment %}
+
+<section class="section decor decor--olivier decor--droite">
+  <div class="conteneur">
+    <h1 class="titre-section">Programme</h1>
+
+    <div class="onglets" role="tablist" aria-label="Jours du programme">
+      {% for jour in site.data.programme %}
+        <button class="onglets__bouton" role="tab" id="onglet-{{ jour.id }}" aria-controls="{{ jour.id }}"
+                aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"{% unless forloop.first %} tabindex="-1"{% endunless %}>{{ jour.jour }}</button>
+      {% endfor %}
+    </div>
+
+    {% for jour in site.data.programme %}
+      <div id="{{ jour.id }}" role="tabpanel" aria-labelledby="onglet-{{ jour.id }}"{% unless forloop.first %} hidden{% endunless %}>
+        {% for seance in jour.seances %}
+          <div class="seance">
+            {% if seance.titre %}<p class="seance__titre">{{ seance.titre }}</p>{% endif %}
+            <ol class="creneaux">
+              {% for creneau in seance.creneaux %}
+                {% include creneau.html creneau=creneau %}
+              {% endfor %}
+            </ol>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
+    <p class="programme__telechargement">
+      <a class="bouton bouton--contour" href="documents/programme-d3ia.pdf">Télécharger le programme (PDF)</a>
+    </p>
+  </div>
+</section>

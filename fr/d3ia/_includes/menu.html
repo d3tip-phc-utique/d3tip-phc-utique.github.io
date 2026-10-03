@@ -1,0 +1,11 @@
+<nav class="menu" aria-label="Navigation principale">
+  <ul class="menu__liste">
+    {% for rubrique in site.data.menu %}
+      {% assign adresse = "/" | append: rubrique.lien %}
+      {% if rubrique.lien == "index.html" %}{% assign adresse = "/" %}{% endif %}
+      <li>
+        <a class="menu__lien{% if page.url == adresse %} menu__lien--actif{% endif %}" href="{{ rubrique.lien }}"{% if page.url == adresse %} aria-current="page"{% endif %}>{{ rubrique.titre }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

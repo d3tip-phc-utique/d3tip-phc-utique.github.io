@@ -1,0 +1,24 @@
+{% assign c = include.creneau %}
+{% if c.type == "pause" %}
+  <li class="creneau creneau--pause">
+    <span class="creneau__heure">{{ c.heure }}</span>
+    <span>{{ c.titre }}</span>
+  </li>
+{% else %}
+  <li class="creneau{% if c.type == 'pleniere' %} creneau--pleniere{% endif %}">
+    <span class="creneau__heure">{{ c.heure }}</span>
+    <div>
+      <h3 class="creneau__titre">
+        {% if c.type == "pleniere" %}<span class="badge badge--pleniere">Conférence plénière</span>{% endif %}
+        {% if c.atelier %}<span class="badge badge--atelier">{{ c.atelier }}</span>{% endif %}
+        {{ c.titre }}
+      </h3>
+      {% if c.auteur %}<p class="creneau__auteur">{{ c.auteur }}</p>{% endif %}
+      {% if c.liste %}
+        <ul class="officiels">
+          {% for ligne in c.liste %}<li>{{ ligne }}</li>{% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </li>
+{% endif %}
