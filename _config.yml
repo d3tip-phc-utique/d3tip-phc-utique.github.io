@@ -27,9 +27,9 @@ languages:
 # chemins de fichiers : le meme ordre sert donc pour toutes les langues.
 nav_order:
   - home
+  - d3ia
   - team
   - events
-  - d3ia
   - publications
   - bibliography
   - partners
