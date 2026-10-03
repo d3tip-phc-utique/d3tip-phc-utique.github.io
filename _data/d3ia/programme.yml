@@ -1,16 +1,3 @@
-# PROGRAMME DES JOURNÉES D3IA (commun aux trois langues)
-#
-# Chaque séance a soit un intitulé (« ouverture »), soit une modération :
-#   moderation: Nom Prénom   +   genre: m ou f
-#
-# Chaque créneau a une heure et, au choix :
-#   pause: accueil | cafe | dejeuner | cloture_jour1 | cloture   (texte traduit automatiquement)
-#   titre + auteur                                                (intervention, non traduite)
-#   pleniere: true      → étiquette « Conférence plénière »
-#   atelier: 1          → étiquette « Atelier de formation 1 »
-#
-# Mettez un titre entre guillemets s'il contient deux-points (« : »).
-
 - id: jeudi
   jour:
     fr: Jeudi 5 novembre
@@ -25,23 +12,23 @@
         - heure: 9h–9h30
           ouverture: true
           officiels:
-            - fr: M. Slim Driss, président de l'Université de Tunis
-              en: Slim Driss, President of the University of Tunis
+            - fr: Président de l'Université de Tunis : M. Slim Driss
+              en: President of the University of Tunis: Slim Driss
               ar: Slim Driss، رئيس جامعة تونس
-            - fr: M. Ameur Cherif, président de l'Université de la Manouba
-              en: Ameur Cherif, President of the University of Manouba
+            - fr: Président de l'Université de la Manouba : M. Ameur Cherif
+              en: President of the University of Manouba: Ameur Cherif
               ar: Ameur Cherif، رئيس جامعة منوبة
-            - fr: M. Mohamed Faker Klibi, directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis
-              en: Mohamed Faker Klibi, Director of the Higher School of Economic and Commercial Sciences of Tunis (ESSECT)
+            - fr: Directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT) : M. Mohamed Faker Klibi
+              en: Director of the Higher School of Economic and Commercial Sciences of Tunis (ESSECT): Mohamed Faker Klibi
               ar: Mohamed Faker Klibi، مدير المدرسة العليا للعلوم الاقتصادية والتجارية بتونس
-            - fr: Giovanni Dotoli, responsable des Journées Mondiales des Dictionnaires
-              en: Giovanni Dotoli, head of the World Dictionary Days
+            - fr: Responsable des Journées Mondiales des Dictionnaires : Giovanni Dotoli
+              en: Head of the World Dictionary Days: Giovanni Dotoli
               ar: Giovanni Dotoli، المسؤول عن الأيام العالمية للمعاجم
-            - fr: Mme Anissa Ben Hassine, directrice du laboratoire LARIME
-              en: Anissa Ben Hassine, Director of the LARIME laboratory
+            - fr: Directrice du laboratoire LARIME : Mme Anissa Ben Hassine
+              en: Director of the LARIME laboratory: Anissa Ben Hassine
               ar: Anissa Ben Hassine، مديرة مخبر LARIME
-            - fr: Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité), organisateurs des Journées D<sub>3</sub>IA
-              en: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité), organisers of the D<sub>3</sub>IA Days
+            - fr: Organisateurs des Journées D<sub>3</sub>IA : Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité)
+              en: Organisers of the D<sub>3</sub>IA Days: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité)
               ar: Soumaya Mejri (جامعة تونس) وLichao Zhu (جامعة باريس سيتي)، منظّما أيام D<sub>3</sub>IA
         - heure: 9h30–10h
           pause: cafe
