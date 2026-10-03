@@ -12,23 +12,23 @@
         - heure: 9h–9h30
           ouverture: true
           officiels:
-            - fr: Président de l'Université de Tunis : M. Slim Driss
-              en: President of the University of Tunis: Slim Driss
+            - fr: "Président de l'Université de Tunis : M. Slim Driss"
+              en: "President of the University of Tunis: Slim Driss"
               ar: Slim Driss، رئيس جامعة تونس
-            - fr: Président de l'Université de la Manouba : M. Ameur Cherif
-              en: President of the University of Manouba: Ameur Cherif
+            - fr: "Président de l'Université de la Manouba : M. Ameur Cherif"
+              en: "President of the University of Manouba: Ameur Cherif"
               ar: Ameur Cherif، رئيس جامعة منوبة
-            - fr: Directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT) : M. Mohamed Faker Klibi
-              en: Director of the Higher School of Economic and Commercial Sciences of Tunis (ESSECT): Mohamed Faker Klibi
+            - fr: "Directeur de l'École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT) : M. Mohamed Faker Klibi"
+              en: "Director of the Higher School of Economic and Commercial Sciences of Tunis (ESSECT): Mohamed Faker Klibi"
               ar: Mohamed Faker Klibi، مدير المدرسة العليا للعلوم الاقتصادية والتجارية بتونس
-            - fr: Responsable des Journées Mondiales des Dictionnaires : Giovanni Dotoli
-              en: Head of the World Dictionary Days: Giovanni Dotoli
+            - fr: "Responsable des Journées Mondiales des Dictionnaires : Giovanni Dotoli"
+              en: "Head of Journées Mondiales des Dictionnaires: Giovanni Dotoli"
               ar: Giovanni Dotoli، المسؤول عن الأيام العالمية للمعاجم
-            - fr: Directrice du laboratoire LARIME : Mme Anissa Ben Hassine
-              en: Director of the LARIME laboratory: Anissa Ben Hassine
+            - fr: "Directrice du laboratoire LARIME : Mme Anissa Ben Hassine"
+              en: "Director of the LARIME laboratory: Anissa Ben Hassine"
               ar: Anissa Ben Hassine، مديرة مخبر LARIME
-            - fr: Organisateurs des Journées D<sub>3</sub>IA : Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité)
-              en: Organisers of the D<sub>3</sub>IA Days: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité)
+            - fr: "Organisateurs des Journées D<sub>3</sub>IA : Mme Soumaya Mejri (Université de Tunis) et M. Lichao Zhu (Université Paris Cité)"
+              en: "Organisers of the D<sub>3</sub>IA Days: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité)""
               ar: Soumaya Mejri (جامعة تونس) وLichao Zhu (جامعة باريس سيتي)، منظّما أيام D<sub>3</sub>IA
         - heure: 9h30–10h
           pause: cafe
