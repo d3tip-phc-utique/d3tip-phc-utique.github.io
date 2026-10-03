@@ -302,6 +302,15 @@
   margin-right: auto;
 }
 
+/* Texte justifié (aligné des deux côtés), avec césure automatique
+   pour éviter les grands espaces entre les mots. */
+.d3ia-texte > p,
+.d3ia-texte > ul > li {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
 .d3ia-texte h2 {
   margin: 2rem 0 0.5rem;
   color: var(--d3ia-bleu);
