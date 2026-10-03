@@ -1,6 +1,14 @@
 # Sous-menu affiché en haut des pages D3IA (clés de page, comme nav_order).
+# Une rubrique peut avoir des sous-rubriques : ce sont des ancres (#...) de sa page,
+# dont le libellé est défini dans _data/d3ia/i18n.yml.
 - d3ia
 - d3ia_appel
 - d3ia_programme
+- cle: d3ia_comites
+  sous:
+    - ancre: comite-scientifique
+      libelle: comite_scientifique
+    - ancre: comite-organisation
+      libelle: comite_organisation
 - d3ia_inscription
 - d3ia_infos

@@ -9,5 +9,6 @@ publications:
 d3ia:
   - key: d3ia_appel
   - key: d3ia_programme
+  - key: d3ia_comites
   - key: d3ia_inscription
   - key: d3ia_infos
