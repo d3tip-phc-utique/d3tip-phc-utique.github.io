@@ -154,10 +154,10 @@
   background-image: url("decor/globe.png");
 }
 
-.d3ia-decor--olivier-droite::before { right: -2.5rem; }
-.d3ia-decor--olivier-gauche::before { left: -2.5rem; }
-.d3ia-decor--globe-droite::before { right: -7rem; }
-.d3ia-decor--globe-gauche::before { left: -7rem; }
+.d3ia-decor--olivier-droite::before { right: -4rem; }
+.d3ia-decor--olivier-gauche::before { left: -4rem; }
+.d3ia-decor--globe-droite::before { right: -12rem; }
+.d3ia-decor--globe-gauche::before { left: -12rem; }
 
 .d3ia .d3ia-titre {
   margin: 0 0 1.5rem;
@@ -293,9 +293,13 @@
 }
 
 /* 8. Textes (pages rédigées en Markdown) ---------------------------------- */
-.d3ia-texte > p,
-.d3ia-texte > ul {
-  max-width: 68ch;
+/* Colonne de lecture centrée : le titre et le texte gardent une largeur
+   confortable, avec un espace égal de chaque côté pour les décors. */
+.d3ia-section > .d3ia-titre,
+.d3ia-section > .d3ia-texte {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .d3ia-texte h2 {
@@ -448,10 +452,10 @@
   line-height: 1.35;
 }
 
-.d3ia[dir="rtl"] .d3ia-decor--olivier-droite::before { right: auto; left: -2.5rem; }
-.d3ia[dir="rtl"] .d3ia-decor--olivier-gauche::before { left: auto; right: -2.5rem; }
-.d3ia[dir="rtl"] .d3ia-decor--globe-droite::before { right: auto; left: -7rem; }
-.d3ia[dir="rtl"] .d3ia-decor--globe-gauche::before { left: auto; right: -7rem; }
+.d3ia[dir="rtl"] .d3ia-decor--olivier-droite::before { right: auto; left: -4rem; }
+.d3ia[dir="rtl"] .d3ia-decor--olivier-gauche::before { left: auto; right: -4rem; }
+.d3ia[dir="rtl"] .d3ia-decor--globe-droite::before { right: auto; left: -12rem; }
+.d3ia[dir="rtl"] .d3ia-decor--globe-gauche::before { left: auto; right: -12rem; }
 
 /* Le fichier _includes/head.html du site met toutes les listes en ligne
    sur les pages en html[dir="rtl"]. Si le site passe un jour en RTL, ces
