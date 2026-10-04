@@ -619,4 +619,13 @@ html[dir="rtl"] .d3ia .d3ia-logos__liste {
   .d3ia-formulaire iframe {
     height: 950px;
   }
+
+  .d3ia-note-traduction {
+    margin: 0.5rem 0 1.5rem;
+    color: var(--d3ia-gris);
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+
 }

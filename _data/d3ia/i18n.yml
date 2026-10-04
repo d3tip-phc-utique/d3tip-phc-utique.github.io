@@ -24,6 +24,7 @@ fr:
     cloture: "Clôture des Journées D<sub>3</sub>IA"
 en:
   sous_menu: "D3IA Days sections"
+  note_traduction: "Translated from French with AI assistance and post-edited."
   afficher_sous_menu: "Show sub-sections"
   comite_scientifique: "Scientific committee"
   comite_organisation: "Organising committee"
@@ -47,6 +48,7 @@ en:
     cloture: "Closing of the D<sub>3</sub>IA Days"
 ar:
   sous_menu: "أقسام أيام D3IA"
+  note_traduction: "تُرجمت من الفرنسية بمساعدة الذكاء الاصطناعي ثم رُوجعت."
   afficher_sous_menu: "عرض الأقسام الفرعية"
   comite_scientifique: "اللجنة العلمية"
   comite_organisation: "اللجنة التنظيمية"

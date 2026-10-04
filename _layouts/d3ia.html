@@ -31,4 +31,9 @@ layout: default
   {%- endif %}
 </div>
 
+{%- assign t = site.data.d3ia.i18n[page.lang] %}
+{%- if t.note_traduction %}
+<p class="d3ia-note-traduction">{{ t.note_traduction }}</p>
+{%- endif %}
+
 <script src="{{ '/assets/d3ia/d3ia.js' | relative_url }}?v={{ version }}" defer></script>
