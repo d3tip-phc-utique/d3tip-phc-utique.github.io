@@ -25,7 +25,7 @@ permalink: /en/events/
 
 ### Study days
 - **Dictionnaire et discours du développement durable & huitième journée mondiale des dictionnaires** (9 June 2026) · Room 720, Olympe de Gouges Building, Grands Moulins Campus, Université Paris Cité, Paris, FRANCE · [Event website](https://dico-et-d3.sciencesconf.org) · [Poster](/assets/logos/JE_DICO-DISCOURS-DD.pdf)
-- **Développement durable, corpus et IA** (5 November 2026) · ESSECT, Tunis, TUNISIA (forthcoming)
+- **Développement durable, corpus et IA** (5 November 2026) · ESSECT, Tunis, TUNISIA (forthcoming) · [Event website](/en/d3ia/)
 
 ### Seminars
 - **Analyses, Discours, Argumentation (ADA) : approches numériques, linguistiques, didactiques et traductologiques** (6 February 2026, Arras) · Prédication, contrastif, culture · [Programme](http://grammatica.univ-artois.fr/content/download/533/2036/file/1%20Affiche%20et%20programme%20séminaire%20doctoral%20ADA%20Pr%C3%A9dication,%20contrastif,%20culture_06-02-2026_LIEN_D%27INSCRIPTION.pdf)
