@@ -13,7 +13,7 @@ decor: olivier-gauche
 
 École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT), Université de Tunis  
 [4, Rue Abou Zakaria El Hafsi - 1089 Montfleury], Tunis  
-[Voir sur la carte](https://www.openstreetmap.org/search?query=ESSEC%20Tunis)
+[Voir sur Google Maps](https://www.google.com/maps/search/?api=1&query=ESSECT%2C%20Tunis)
 
 ## Accès
 
