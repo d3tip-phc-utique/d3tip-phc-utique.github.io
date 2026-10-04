@@ -304,7 +304,7 @@ permalink: /en/team/organisation_chart/
           <div class="org-card">
             <div class="org-avatar avatar-doc">IB</div>
             <div class="org-info">
-              <span class="org-badge badge-doc">PhD Student</span>
+              <span class="org-badge badge-doc">PhD Candidate</span>
               <div class="org-name">Intissar BOUGHALMI</div>
               <div class="org-institution">Paris Cité Univ. & Univ. of Manouba</div>
             </div>
