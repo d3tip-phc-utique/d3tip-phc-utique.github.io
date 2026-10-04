@@ -17,9 +17,9 @@ decor: olivier-gauche
 
 ## Getting there
 
-[room]
+Conference room
 
 
 ## Contact
 
-[d3tip@gmail.com](mailto:d3tip@gmail.com)
+[d3tip2026@gmail.com](mailto:d3tip2026@gmail.com)
