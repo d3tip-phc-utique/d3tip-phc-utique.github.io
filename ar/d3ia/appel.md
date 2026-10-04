@@ -3,7 +3,7 @@ layout: d3ia
 title: "دعوة للمشاركة"
 d3ia_label: "دعوة للمشاركة"
 lang: ar
-dir: rtl
+dir: ltr
 key: d3ia_appel
 permalink: /ar/d3ia/appel/
 decor: globe-gauche
