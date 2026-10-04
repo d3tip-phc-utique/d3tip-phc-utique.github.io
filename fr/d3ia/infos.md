@@ -22,5 +22,5 @@ Salle de conférence
 
 ## Contact
 
-[d3tip@gmail.com](mailto:d3tip@gmail.com)
+[d3tip2026@gmail.com](mailto:d3tip2026@gmail.com)
 
