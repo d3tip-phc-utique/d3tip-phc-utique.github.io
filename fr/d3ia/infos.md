@@ -17,7 +17,7 @@ decor: olivier-gauche
 
 ## Accès
 
-[Salle]
+Salle de conférence
 
 
 ## Contact
