@@ -455,7 +455,7 @@ permalink: /fr/team/organigramme/
           <div class="org-card">
             <div class="org-avatar avatar-doc">IB</div>
             <div class="org-info">
-              <span class="org-badge badge-doc">Doctorante</span>
+              <span class="org-badge badge-doc">Candidate au doctorat</span>
               <div class="org-name">Intissar BOUGHALMI</div>
               <div class="org-institution">Univ. Paris Cité & Univ. La Manouba</div>
             </div>
