@@ -279,7 +279,7 @@ permalink: /en/team/organisation_chart/
 
         <!-- Engineering, Postdoc & PhD Group -->
         <div class="org-group-box">
-          <div class="org-group-header">Engineering, Postdoc & PhD</div>
+          <div class="org-group-header">Engineer, Postdoc & PhD</div>
 
           <div class="org-card">
             <div class="org-avatar avatar-tech">BB</div>

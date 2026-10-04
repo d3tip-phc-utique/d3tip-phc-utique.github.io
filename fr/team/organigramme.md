@@ -280,7 +280,7 @@ permalink: /fr/team/organigramme/
 
         <!-- Groupe Recherche & Support -->
         <div class="org-group-box">
-          <div class="org-group-header">Ingénierie, Post-Doc & Doctorat</div>
+          <div class="org-group-header">Ingénieur, Post-Doc & Doctorant</div>
 
           <div class="org-card">
             <div class="org-avatar avatar-tech">BB</div>
