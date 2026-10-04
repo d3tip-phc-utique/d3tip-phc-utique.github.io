@@ -12,7 +12,7 @@ decor: olivier-gauche
 ## المكان
 
 المدرسة العليا للعلوم الاقتصادية والتجارية بتونس (ESSECT)، جامعة تونس  
-[العنوان]، تونس  
+العنوان، تونس  
 [عرض على خرائط Google](https://www.google.com/maps/search/?api=1&query=ESSECT%2C%20Tunis)
 
 ## الوصول
