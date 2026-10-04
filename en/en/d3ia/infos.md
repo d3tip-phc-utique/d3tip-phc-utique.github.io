@@ -11,21 +11,15 @@ decor: olivier-gauche
 
 ## Venue
 
-Higher School of Economic and Commercial Sciences of Tunis (ESSECT), University of Tunis  
-[Address], Tunis  
-[View on the map](https://www.openstreetmap.org/search?query=ESSECT%20Tunis)
+École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT), Université de Tunis  
+[4, Rue Abou Zakaria El Hafsi - 1089 Montfleury], Tunis  
+[Voir sur la carte](https://www.openstreetmap.org/search?query=ESSEC%20Tunis)
 
 ## Getting there
 
-[Public transport, room, accessibility.]
+[room]
 
-## Attendance
-
-The event is open on site and online, upon [registration]({% include d3ia/lien.html key='d3ia_inscription' %}).
 
 ## Contact
 
-Organisers: Soumaya Mejri (University of Tunis) and Lichao Zhu (Université Paris Cité)
-
-- Tunisian side: [soumayamejri@yahoo.fr](mailto:soumayamejri@yahoo.fr)
-- French side: [lichao.zhu@u-pariscite.fr](mailto:lichao.zhu@u-pariscite.fr)
+[d3tip@gmail.com](mailto:d3tip@gmail.com)
