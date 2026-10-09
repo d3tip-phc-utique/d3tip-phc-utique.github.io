@@ -13,7 +13,7 @@ decor: olivier-gauche
 
 🎓 École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT), Université de Tunis  
 📍 4, Rue Abou Zakaria El Hafsi - 1089 Montfleury, Tunis  
-🎤 Conference room
+🎤 *Salle polyvalente* in the annex building
 
 ## Getting there
 
