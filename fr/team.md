@@ -12,7 +12,7 @@ permalink: /fr/team/
   *PR* · *Compétences : méta-linguistique et en théorie linguistique* 
   
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Candidate à un doctorat* · 
+  *Candidate au doctorat* · 
 
 - **[Brice BRICAUD](https://u-paris.fr/eila/brice-bricaud/)** — Université Paris Cité (France)  
   *IGE* · *Compétences : développement Web et gestion de base de données* 
@@ -53,7 +53,7 @@ permalink: /fr/team/
   *MCF* · *Compétences : modalité* 
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
-  *Doctorant en co-tutelle* 
+  *Candidate au doctorat* 
 
 - **[Haythem HAMDI](URL_PERSO)** — Université de Sousse & Université autonome de Barcelone (Tunisie, Espagne)    
   *Doctorant*
