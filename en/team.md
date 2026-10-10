@@ -15,25 +15,25 @@ permalink: /en/team/
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & University of Manouba (France, Tunisia)  
   *PhD candidate*
 
-- **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
+- **[Brice BRICAUD](https://u-paris.fr/eila/brice-bricaud/)** — Université Paris Cité (France)  
   *Research Engineer* · *Areas of expertise: web development and database management*
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
   *Full Professor* · *Areas of expertise: computational linguistics and formal semantics*
 
-- **[Jan GOES](URL_PERSO)** — Université d'Artois (France)  
+- **[Jan GOES](https://grammatica.univ-artois.fr/equipe/membres-permanents/jan-goes)** — Université d'Artois (France)  
   *Full Professor* · *Areas of expertise: adjectives and adjectival constructions*
 
-- **[Luis MENESES-LERIN](URL_PERSO)** — Université d'Artois (France)  
+- **[Luis MENESES-LERIN](https://grammatica.univ-artois.fr/equipe/membres-permanents/luis-meneses-lerin)** — Université d'Artois (France)  
   *Associate Professor* · *Areas of expertise: phraseology and corpus linguistics*
 
-- **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
+- **[Imen MIZOURI](https://altae.u-pariscite.fr/annuaire/mizouri-imen/)** — Université Paris Cité (France)  
   *Postdoctoral Researcher* · *Areas of expertise: computer-aided text analysis and predicative chaining*
 
-- **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
+- **[Stéphane PATIN](https://altae.u-pariscite.fr/annuaire/patin-stephane/)** — Université Paris Cité (France)  
   *Full Professor* · *Areas of expertise: digital discourse analysis, textometry*
 
-- **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
+- **[Mojca PECMAN](https://altae.u-pariscite.fr/annuaire/pecman-mojca/)** — Université Paris Cité (France)  
   *Full Professor* · *Areas of expertise: phraseology and terminology*
 
 - **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  
