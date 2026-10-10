@@ -13,7 +13,7 @@ permalink: /en/team/
   *Full Professor* · *Areas of expertise: metalinguistics and linguistic theory*
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & University of Manouba (France, Tunisia)  
-  *PhD candidate*
+  *PhD applicant*
 
 - **[Brice BRICAUD](https://u-paris.fr/eila/brice-bricaud/)** — Université Paris Cité (France)  
   *Research Engineer* · *Areas of expertise: web development and database management*
@@ -43,7 +43,7 @@ permalink: /en/team/
 **Tunisian team**
 
 - **[Rania ALOUI](URL_PERSO)** — ESSECT, University of Tunis (Tunisia)  
-  *PhD candidate (co-directed)*
+  *PhD candidate*
 
 - **[Thouraya BEN AMOR](URL_PERSO)** — University of Manouba (Tunisia)  
   *Associate Professor (HDR)* · *Areas of expertise: phraseology and defixation (défigement)*
@@ -55,7 +55,7 @@ permalink: /en/team/
   *Associate Professor* · *Areas of expertise: modality*
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & University of Manouba (France, Tunisia)  
-  *PhD candidate (joint supervision)*
+  *PhD applicant*
 
 - **[Haythem HAMDI](URL_PERSO)** — University of Sousse & Autonomous University of Barcelona (Tunisia, Spain)  
   *PhD candidate*
