@@ -14,25 +14,25 @@ permalink: /fr/team/
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & Université de la Manouba (France, Tunisie)  
   *Candidate à un doctorat* · 
 
-- **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
+- **[Brice BRICAUD](https://u-paris.fr/eila/brice-bricaud/)** — Université Paris Cité (France)  
   *IGE* · *Compétences : développement Web et gestion de base de données* 
 
 - **[Pierre-André BUVET](URL_PERSO)** — Université Sorbonne Paris Nord (France)  
   *MCF HDR* · *Compétences : linguistique computationnelle et sémantique formelle* 
 
-- **[Jan GOES](URL_PERSO)** — Université d’Artois (France)  
+- **[Jan GOES](https://grammatica.univ-artois.fr/equipe/membres-permanents/jan-goes)** — Université d’Artois (France)  
   *PR* · *Compétences : adjectif et constructions adjectivales* 
 
-- **[Luis MENESES-LERIN](URL_PERSO)** — Université d’Artois (France)  
+- **[Luis MENESES-LERIN](https://grammatica.univ-artois.fr/equipe/membres-permanents/luis-meneses-lerin)** — Université d’Artois (France)  
   *MCF* · *Compétences : phraséologie et linguistique de corpus* 
 
-- **[Imen MIZOURI](URL_PERSO)** — Université Paris Cité (France)  
+- **[Imen MIZOURI](https://altae.u-pariscite.fr/annuaire/mizouri-imen/)** — Université Paris Cité (France)  
   *Post-doctorante* · *Compétences : analyse textuelle outillée et enchaînement prédicatif* 
 
-- **[Stéphane PATIN](URL_PERSO)** — Université Paris Cité (France)  
+- **[Stéphane PATIN](https://altae.u-pariscite.fr/annuaire/patin-stephane/)** — Université Paris Cité (France)  
   *PR* · *Compétences : analyse du discours numérique, textométrie* 
 
-- **[Mojca PECMAN](URL_PERSO)** — Université Paris Cité (France)  
+- **[Mojca PECMAN](https://altae.u-pariscite.fr/annuaire/pecman-mojca/)** — Université Paris Cité (France)  
   *PR* · *Compétences : phraséologie et terminologie* 
 
 - **[Lichao ZHU](https://zhulichao.fr)** — Université Paris Cité (France)  

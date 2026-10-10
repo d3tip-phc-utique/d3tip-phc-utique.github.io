@@ -13,7 +13,7 @@ permalink: /en/team/
   *Full Professor* · *Areas of expertise: metalinguistics and linguistic theory*
 
 - **[Intissar BOUGHALMI](URL_PERSO)** — Université Paris Cité & University of Manouba (France, Tunisia)  
-  *PhD candidate (joint supervision)*
+  *PhD candidate*
 
 - **[Brice BRICAUD](URL_PERSO)** — Université Paris Cité (France)  
   *Research Engineer* · *Areas of expertise: web development and database management*

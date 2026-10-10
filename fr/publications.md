@@ -7,8 +7,6 @@ key: publications
 permalink: /fr/publications/
 ---
 
-### Communications
-
 
 
 ### Articles
