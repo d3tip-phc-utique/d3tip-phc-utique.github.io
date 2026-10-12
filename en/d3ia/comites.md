@@ -34,6 +34,7 @@ decor: olivier-droite
 - Amel BEJI, ESSECT, Université de Tunis
 - Thouraya BEN AMOR, Université de la Manouba
 - Soumaya MEJRI, ESSECT, Université de Tunis
+- Sinda MHIRI, Université de Tunis
 - Imen MIZOURI, Université Paris Cité
 - Sounayhawend MOALLA, Université de la Manouba
 - Nour El Houda YEFERNI, ESSECT, Université de Tunis
