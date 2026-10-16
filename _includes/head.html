@@ -19,13 +19,3 @@ lient les deux versions au lieu de les traiter comme des doublons. {%- endcommen
 {%- if x_default %}
 <link rel="alternate" hreflang="x-default" href="{{ x_default.url | absolute_url }}">
 {%- endif %}
-<style>
-  html[dir="rtl"] nav,
-  html[dir="rtl"] header,
-  html[dir="rtl"] .site-header,
-  html[dir="rtl"] ul {
-    display: flex !important;
-    flex-direction: row-reverse !important;
-    justify-content: flex-end !important;
-  }
-</style>

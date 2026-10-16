@@ -156,8 +156,9 @@ main { padding: 26px 0 50px; }
 
 /* ===== RTL polish ===== */
 html[dir="rtl"] body { font-family: system-ui, "Noto Naskh Arabic", "Amiri", serif; }
-html[dir="rtl"] .navwrap { flex-direction: row-reverse; }
 html[dir="rtl"] .page-content { text-align: right; }
+/* Passages en français dans une page arabe (références, etc.) : de gauche à droite */
+html[dir="rtl"] .page-content [dir="ltr"] { text-align: left; }
 
 /* ===== Effet sombre (overlay) ===== */
 /* s'applique au menu, aux langues, et au lien Contact topbar */
